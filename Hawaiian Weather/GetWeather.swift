@@ -60,6 +60,7 @@ class weather {
             
             }.resume()
         
+        
     }
     
     func analyze() {
