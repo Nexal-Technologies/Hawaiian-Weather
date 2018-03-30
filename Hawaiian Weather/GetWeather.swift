@@ -25,6 +25,7 @@ class weather {
     let latitude : Float?
     let longitude : Float?
     
+    var success: Bool = false
     
     let key: String?
     
@@ -64,13 +65,18 @@ class weather {
     }
     
     func analyze() {
-        if self.block?.cod! != 200 {
+        if self.block?.cod != 200 {
             return
-        } else if self.block.cod == 401 {
-            return
+        } else if self.block?.cod == 401 {
+            self.success = true
         }
         
         let dat = self.block
+        let weatherString = dat?.main
+        
+    }
+    
+    func retry() {
         
     }
     

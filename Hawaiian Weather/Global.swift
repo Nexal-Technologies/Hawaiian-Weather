@@ -9,6 +9,6 @@
 import Foundation
 
 struct global {
-    static var
+    static var isConnectedToInternet : Bool = false
 }
 
