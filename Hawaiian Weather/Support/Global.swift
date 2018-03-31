@@ -1,0 +1,33 @@
+//
+//  Global.swift
+//  Hawaiian Weather
+//
+//  Created by Iain Moncrief on 3/27/18.
+//  Copyright © 2018 Iain Moncrief. All rights reserved.
+//
+
+import Foundation
+
+struct Global {
+    
+    var isConnectedToInternet : Bool = false
+    
+    var workingKey : String = ""
+    
+    var isFirstOpen : Bool = true
+    
+    var latitude = 0.0
+    var longitude = 0.0
+    
+    var keyBlock = KeyBlock()
+    
+    init() {
+        
+        self.isFirstOpen = firstOpen()
+        
+    }
+    
+}
+
+//initialize with functions or class
+var global = Global()

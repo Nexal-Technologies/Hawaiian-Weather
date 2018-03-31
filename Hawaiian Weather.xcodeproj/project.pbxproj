@@ -19,6 +19,7 @@
 		A387A726206611DB00751BA3 /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A725206611DB00751BA3 /* GetWeather.swift */; };
 		A387A728206887BA00751BA3 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A727206887BA00751BA3 /* Keys.swift */; };
 		A387A72A2068884F00751BA3 /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7292068884F00751BA3 /* GetLocation.swift */; };
+		A3D27D27206F8544006DFFF4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D27D26206F8544006DFFF4 /* Reachability.swift */; };
 		A3FB0704206B848A00935A41 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB0703206B848A00935A41 /* Global.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		A387A725206611DB00751BA3 /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
 		A387A727206887BA00751BA3 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		A387A7292068884F00751BA3 /* GetLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocation.swift; sourceTree = "<group>"; };
+		A3D27D26206F8544006DFFF4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A3FB0703206B848A00935A41 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,14 +111,12 @@
 		A387A6EE2065B3D000751BA3 /* Hawaiian Weather */ = {
 			isa = PBXGroup;
 			children = (
+				A3D27D28206F8560006DFFF4 /* Support */,
 				A387A7202065C25B00751BA3 /* Location */,
 				A387A6EF2065B3D000751BA3 /* AppDelegate.swift */,
 				A387A6F12065B3D000751BA3 /* ViewController.swift */,
 				A387A7212065C2AF00751BA3 /* NewStation.swift */,
 				A387A725206611DB00751BA3 /* GetWeather.swift */,
-				A3FB0703206B848A00935A41 /* Global.swift */,
-				A387A7232065C3C600751BA3 /* Functions.swift */,
-				A387A727206887BA00751BA3 /* Keys.swift */,
 				A387A6F32065B3D000751BA3 /* Main.storyboard */,
 				A387A6F62065B3D000751BA3 /* Assets.xcassets */,
 				A387A6F82065B3D000751BA3 /* LaunchScreen.storyboard */,
@@ -149,6 +149,17 @@
 				A387A7292068884F00751BA3 /* GetLocation.swift */,
 			);
 			path = Location;
+			sourceTree = "<group>";
+		};
+		A3D27D28206F8560006DFFF4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB0703206B848A00935A41 /* Global.swift */,
+				A3D27D26206F8544006DFFF4 /* Reachability.swift */,
+				A387A727206887BA00751BA3 /* Keys.swift */,
+				A387A7232065C3C600751BA3 /* Functions.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 				A387A728206887BA00751BA3 /* Keys.swift in Sources */,
 				A387A72A2068884F00751BA3 /* GetLocation.swift in Sources */,
 				A387A6F22065B3D000751BA3 /* ViewController.swift in Sources */,
+				A3D27D27206F8544006DFFF4 /* Reachability.swift in Sources */,
 				A387A6F02065B3D000751BA3 /* AppDelegate.swift in Sources */,
 				A387A7222065C2AF00751BA3 /* NewStation.swift in Sources */,
 				A387A7242065C3C600751BA3 /* Functions.swift in Sources */,

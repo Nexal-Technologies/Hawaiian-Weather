@@ -15,10 +15,6 @@ func noWifi() {
 }
 let defaults = UserDefaults.standard
 
-var isFirstOpen = firstOpen()
-
-var workingKey: String? = ""
-
 func firstOpen() -> Bool {
     
     let theCode = defaults.integer(forKey: "firstTime")

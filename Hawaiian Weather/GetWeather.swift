@@ -22,9 +22,6 @@ struct WeatherBlock : Decodable {
 
 class weather {
     
-    let latitude : Float?
-    let longitude : Float?
-    
     var success: Bool = false
     
     let key: String?
@@ -33,16 +30,16 @@ class weather {
     
     var block: WeatherBlock?
     
-    init(latitude: Float, longitude: Float) {
+    init(latitude: Double, longitude: Double) {
         
         let keyGet = infoKey()
         keyGet.getKeys()
-        self.key = workingKey
+        global.workingKey
         
-        self.latitude = latitude
-        self.longitude = longitude
+        global.latitude = latitude
+        global.longitude = longitude
         
-        let apiURLstring = "http://api.openweathermap.org/data/2.5/weather?lat=\(self.latitude)&lon=\(self.longitude)&appid=\(workingKey)"
+        let apiURLstring = "http://api.openweathermap.org/data/2.5/weather?lat=\(global.latitude)&lon=\(global.longitude)&appid=\(global.workingKey)"
         self.apiURL = URL(string: apiURLstring)
         
         URLSession.shared.dataTask(with: self.apiURL!) {(data, response, err) in

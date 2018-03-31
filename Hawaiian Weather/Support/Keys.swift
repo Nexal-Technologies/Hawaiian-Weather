@@ -8,33 +8,37 @@
 
 import Foundation
 
-struct keyBlock: Decodable {
+struct KeyBlock: Decodable {
     var key1: String?
     var key2: String?
     var key3: String?
 }
 
-
-
 class infoKey {
-    
-    var block = keyBlock()
-    
-
     
     public func getKeys() {
         
         //fist time open*? UserDefaults BOOL
         
-        if isFirstOpen {
+        if global.isFirstOpen {
             
-            workingKey = "b6907d289e10d714a6e88b30761fae22"
+            global.workingKey = "b6907d289e10d714a6e88b30761fae22"
+            
+            if validateKey(global.workingKey) {
+                //key works!
+                
+            } else {
+                //key does not work...
+                updateKeys()
+                
+            }
             
         } else {
             
-            workingKey = defaults.string(forKey: "workingKey")
+            global.workingKey = defaults.string(forKey: "workingKey")!
             
-            if validateKey(workingKey) {
+            if validateKey(global.workingKey) {
+                //key works!
                 
             } else {
                 
@@ -58,7 +62,7 @@ class infoKey {
             
             do {
                 
-                self.block = try JSONDecoder().decode(keyBlock.self, from: data!)
+                global.keyBlock = try JSONDecoder().decode(KeyBlock.self, from: data!)
                 
             } catch let jsonErr {
                 print("Error serializing json:", jsonErr)
@@ -68,8 +72,8 @@ class infoKey {
         
     }
     
-    func validateKey(_ key: String?) -> Bool {
+    func validateKey(_ key: String) -> Bool {
         
-        
+        return true
     }
 }
