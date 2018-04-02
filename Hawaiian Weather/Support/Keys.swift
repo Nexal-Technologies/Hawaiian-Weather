@@ -24,7 +24,7 @@ class infoKey {
             
             global.workingKey = "b6907d289e10d714a6e88b30761fae22"
             
-            if validateKey(global.workingKey) {
+            if validateKey(global.workingKey) { 
                 //key works!
                 
             } else {

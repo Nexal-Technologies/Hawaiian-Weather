@@ -24,8 +24,6 @@ class weather {
     
     var success: Bool = false
     
-    let key: String?
-    
     let apiURL : URL?
     
     var block: WeatherBlock?
@@ -34,7 +32,8 @@ class weather {
         
         let keyGet = infoKey()
         keyGet.getKeys()
-        global.workingKey
+        //global.workingKey
+        //self.block = WeatherBlock
         
         global.latitude = latitude
         global.longitude = longitude
@@ -54,10 +53,10 @@ class weather {
                 
             } catch let jsonErr {
                 print("Error serializing json:", jsonErr)
+                //self.block = try JSONDecoder().decode(WeatherBlock.self, from: data!)
             }
             
-            }.resume()
-        
+        }.resume()
         
     }
     
