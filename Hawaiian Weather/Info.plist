@@ -45,13 +45,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Description</string>
-    
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Description</string>
-    
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Description</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to get weather data for futrue forcast for your current location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to be able to give forcast notifications.</string>
 </dict>
 </plist>

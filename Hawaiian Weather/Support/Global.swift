@@ -16,6 +16,7 @@ struct Global {
     
     var isFirstOpen : Bool = true
     
+    var locationAvalible : Bool = false
     var latitude = 0.0
     var longitude = 0.0
     

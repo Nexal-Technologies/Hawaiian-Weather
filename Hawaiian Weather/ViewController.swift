@@ -30,16 +30,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }
-        
-        
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
         
-        global.latitude = locValue.latitude
-        global.longitude = locValue.longitude
-        print("locations = \(locValue.latitude) \(locValue.longitude)")
+        if locValue.latitude != 0.0 && locValue.longitude != 0.0 {
+            global.locationAvalible = true
+            global.latitude = locValue.latitude
+            global.longitude = locValue.longitude
+            print("locations = \(locValue.latitude) \(locValue.longitude)")
+        } else {
+            evaluateLocation()
+        }
     }
 
     override func didReceiveMemoryWarning() {
