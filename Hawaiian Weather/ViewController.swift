@@ -23,7 +23,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         self.locationManager.requestAlwaysAuthorization()
         
         // For use in foreground
-        self.locationManager.requestWhenInUseAuthorization()
+        //self.locationManager.requestWhenInUseAuthorization()
         
         if CLLocationManager.locationServicesEnabled() {
             locationManager.delegate = self
