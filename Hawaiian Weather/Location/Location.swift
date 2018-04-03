@@ -1,18 +1,16 @@
 //
-//  ViewController.swift
+//  GetLocation.swift
 //  Hawaiian Weather
 //
-//  Created by Iain Moncrief on 3/23/18.
+//  Created by Iain Moncrief on 3/25/18.
 //  Copyright © 2018 Iain Moncrief. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import CoreLocation
 
-
-
-class ViewController: UIViewController, CLLocationManagerDelegate {
-
+class GetLocation: CLLocationManagerDelegate {
+    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -41,10 +39,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         global.longitude = locValue.longitude
         print("locations = \(locValue.latitude) \(locValue.longitude)")
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 }
-

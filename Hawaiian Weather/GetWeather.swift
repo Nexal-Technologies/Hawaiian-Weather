@@ -32,8 +32,6 @@ class weather {
         
         let keyGet = infoKey()
         keyGet.getKeys()
-        //global.workingKey
-        //self.block = WeatherBlock
         
         global.latitude = latitude
         global.longitude = longitude
