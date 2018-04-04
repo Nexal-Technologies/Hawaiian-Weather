@@ -18,10 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //checking network connection...
         
-        if Reachability.isConnectedToNetwork(){
-            print("Internet Connection Available!")
-        }else{
-            print("Internet Connection not Available!")
+        if Network.checkConnection() {
+            
+        } else {
+            
         }
         
         return true
@@ -47,6 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        settings.save()
     }
 
 

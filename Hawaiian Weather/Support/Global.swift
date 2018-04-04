@@ -17,8 +17,12 @@ struct Global {
     var isFirstOpen : Bool = true
     
     var locationAvalible : Bool = false
+    var locationAllowed : Bool = false
     var latitude = 0.0
     var longitude = 0.0
+    
+    
+    var inHawaii : Bool = false
     
     var keyBlock = KeyBlock()
     
@@ -32,3 +36,5 @@ struct Global {
 
 //initialize with functions or class
 var global = Global()
+
+

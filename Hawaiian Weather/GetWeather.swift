@@ -28,13 +28,16 @@ class weather {
     
     var block: WeatherBlock?
     
+    var latitude: Double
+    var longitude: Double
+    
     init(latitude: Double, longitude: Double) {
         
         let keyGet = infoKey()
         keyGet.getKeys()
         
-        global.latitude = latitude
-        global.longitude = longitude
+        self.latitude = latitude
+        self.longitude = longitude
         
         let apiURLstring = "http://api.openweathermap.org/data/2.5/weather?lat=\(global.latitude)&lon=\(global.longitude)&appid=\(global.workingKey)"
         self.apiURL = URL(string: apiURLstring)

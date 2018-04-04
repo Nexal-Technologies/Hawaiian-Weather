@@ -8,6 +8,12 @@
 
 import Foundation
 
-func evaluateLocation() {
-    
+func isInHawaii() -> Bool {
+    if ((global.latitude >= 18.0) && (global.latitude >= -160.0)) && ((global.latitude <= 23.0) && (global.latitude <= -153.0)) {
+        global.inHawaii = true
+        return true
+    } else {
+        global.inHawaii = false
+        return false
+    }
 }
