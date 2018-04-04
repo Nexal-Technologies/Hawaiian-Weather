@@ -229,7 +229,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Iain Moncrief";
+				ORGANIZATIONNAME = "Nexal Technologies";
 				TargetAttributes = {
 					A387A6EB2065B3D000751BA3 = {
 						CreatedOnToolsVersion = 9.2;
