@@ -26,3 +26,4 @@ func firstOpen() -> Bool {
         return true
     }
 }
+var hi = true
