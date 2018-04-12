@@ -10,9 +10,7 @@ import Foundation
 
 
 
-func noWifi() {
-    
-}
+
 let defaults = UserDefaults.standard
 
 func firstOpen() -> Bool {

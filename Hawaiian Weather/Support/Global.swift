@@ -21,6 +21,7 @@ struct Global {
     var latitude = 0.0
     var longitude = 0.0
     
+    //var network = Network()
     
     var inHawaii : Bool = false
     
@@ -36,5 +37,3 @@ struct Global {
 
 //initialize with functions or class
 var global = Global()
-
-

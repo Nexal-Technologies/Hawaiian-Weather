@@ -18,11 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //checking network connection...
         
-        if Network.checkConnection() {
-            
-        } else {
-            
-        }
         
         return true
     }

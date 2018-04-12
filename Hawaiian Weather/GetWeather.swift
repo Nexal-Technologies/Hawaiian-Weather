@@ -33,11 +33,20 @@ class weather {
     
     init(latitude: Double, longitude: Double) {
         
-        let keyGet = infoKey()
-        keyGet.getKeys()
-        
         self.latitude = latitude
         self.longitude = longitude
+        
+        if !Network().checkConnection() {
+            //no connection :(
+            Network().noWifi()
+            
+            self.apiURL = nil
+            
+            return
+        }
+        
+        let keyGet = infoKey()
+        keyGet.getKeys()
         
         let apiURLstring = "http://api.openweathermap.org/data/2.5/weather?lat=\(global.latitude)&lon=\(global.longitude)&appid=\(global.workingKey)"
         self.apiURL = URL(string: apiURLstring)
