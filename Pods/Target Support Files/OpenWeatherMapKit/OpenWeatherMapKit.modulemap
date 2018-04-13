@@ -1,0 +1,6 @@
+framework module OpenWeatherMapKit {
+  umbrella header "OpenWeatherMapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

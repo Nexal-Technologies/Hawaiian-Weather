@@ -1,0 +1,20 @@
+PODS:
+  - OpenWeatherMapKit (0.2.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - OpenWeatherMapKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OpenWeatherMapKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  OpenWeatherMapKit: b348bc63affd808b114467a77488eb12a523f0b5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: fab8ec1158d2a0b1d21b326f8b8e7329a0fbd203
+
+COCOAPODS: 1.5.0
