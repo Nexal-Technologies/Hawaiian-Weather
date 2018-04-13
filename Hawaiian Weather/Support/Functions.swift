@@ -8,9 +8,6 @@
 
 import Foundation
 
-
-
-
 let defaults = UserDefaults.standard
 
 func firstOpen() -> Bool {
@@ -24,4 +21,3 @@ func firstOpen() -> Bool {
         return true
     }
 }
-var hi = true

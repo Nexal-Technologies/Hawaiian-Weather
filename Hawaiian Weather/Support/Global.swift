@@ -32,7 +32,6 @@ struct Global {
         self.isFirstOpen = firstOpen()
         
     }
-    
 }
 
 //initialize with functions or class

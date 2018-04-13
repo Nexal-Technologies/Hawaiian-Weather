@@ -10,7 +10,7 @@ import Foundation
 
 struct Settings {
     
-    var speakPigeon : Bool = false
+    var speakPidgin : Bool = false
     
     var giveNotifications : Bool = true
     
