@@ -48,7 +48,7 @@ class weatherOld {
         let keyGet = infoKey()
         keyGet.getKeys()
         
-        let apiURLstring = "http://api.openweathermap.org/data/2.5/weather?lat=\(global.latitude)&lon=\(global.longitude)&appid=\(global.workingKey)"
+        let apiURLstring = "http://api.openweathermap.org/data/2.5/weather?lat=\(global.latitude)&lon=\(global.longitude)&appid=9336dd32923469d935a7cc74234c1f5a"
         self.apiURL = URL(string: apiURLstring)
         
         URLSession.shared.dataTask(with: self.apiURL!) {(data, response, err) in
