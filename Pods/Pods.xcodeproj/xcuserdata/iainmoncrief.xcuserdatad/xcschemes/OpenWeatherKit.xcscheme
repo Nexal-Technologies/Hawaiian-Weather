@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77B1C69F76BBA37393876EED031B54C2"
-               BlueprintName = "SVProgressHUD"
+               BlueprintIdentifier = "F688303865F0E1C993AE148CF337ED6B"
+               BlueprintName = "OpenWeatherKit"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SVProgressHUD.framework">
+               BuildableName = "OpenWeatherKit.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

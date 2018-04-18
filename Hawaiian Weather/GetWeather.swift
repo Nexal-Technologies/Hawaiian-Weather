@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//import OpenWeatherMapKit
 class weather {
     
     var success: Bool = false
@@ -24,9 +24,9 @@ class weather {
             //no connection :(
             Network().noWifi()
             return
-        }
+        } else {
         
-        OpenWeatherMapKit.instance.currentWeather(forCoordiante: (latitude: 53.2610313, longitude: 50.0579958)) { (forecast, error) in
+        //OpenWeatherMapKit.instance.currentWeather(forCoordiante: (latitude: 53.2610313, longitude: 50.0579958)) { (forecast, error) in
             
         }
     }

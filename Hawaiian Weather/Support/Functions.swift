@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import SVProgressHUD
+
 
 let defaults = UserDefaults.standard
 
@@ -20,4 +22,13 @@ func firstOpen() -> Bool {
         defaults.set(1, forKey: "firstTime")
         return true
     }
+}
+
+func startLoadingScreen(message: String = "Loading") {
+    //setting type of loading
+    SVProgressHUD.setDefaultMaskType(.black)
+    SVProgressHUD.show(withStatus: message)
+}
+func stopLoadingScreen() {
+    SVProgressHUD.dismiss()
 }

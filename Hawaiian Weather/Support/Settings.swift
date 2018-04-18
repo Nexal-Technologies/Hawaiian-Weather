@@ -15,7 +15,7 @@ struct Settings {
     var giveNotifications : Bool = true
     
     init() {
-        if firstOpen() {
+        if !firstOpen() {
             
             self = defaults.object(forKey: "Settings") as! Settings
             

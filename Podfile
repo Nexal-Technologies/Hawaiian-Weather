@@ -8,6 +8,7 @@ target 'Hawaiian Weather' do
   # Pods for Hawaiian Weather
   pod 'SVProgressHUD'
   pod 'OpenWeatherMapKit'
+  pod 'OpenWeatherKit'
 
   target 'Hawaiian WeatherTests' do
     inherit! :search_paths
