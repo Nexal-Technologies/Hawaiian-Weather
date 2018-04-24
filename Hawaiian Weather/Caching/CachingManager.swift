@@ -12,3 +12,4 @@ class cacheManager {
     var deltaRequestTime : Bool?
     var lastRequestTime : Bool?
 }
+//test git
