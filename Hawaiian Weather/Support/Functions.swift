@@ -24,11 +24,19 @@ func firstOpen() -> Bool {
     }
 }
 
-func startLoadingScreen(message: String = "Loading") {
-    //setting type of loading
+func startLoadingScreen(_ message: String?) {
+    
     SVProgressHUD.setDefaultMaskType(.black)
-    SVProgressHUD.show(withStatus: message)
+    
+    let Message = message ?? "none"
+    
+    if Message == "none" {
+        SVProgressHUD.show()
+    } else {
+        SVProgressHUD.show(withStatus: Message)
+    }
 }
+
 func stopLoadingScreen() {
     SVProgressHUD.dismiss()
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreLocation
-import SVProgressHUD
+
 
 
 
@@ -19,10 +19,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
-
-                SVProgressHUD.show()
-        
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()
         
@@ -37,18 +33,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        SVProgressHUD.show()
+        //progress
+        startLoadingScreen("")
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
         
-        global.latitude = locValue.latitude
-        global.longitude = locValue.longitude
+        global.userLocation.latitude = locValue.latitude
+        global.userLocation.longitude = locValue.longitude
         
-        print("\(global.longitude), \(global.latitude)")
+        print("\(global.userLocation.longitude), \(global.userLocation.latitude)")
         
-        if global.latitude != 0.0 && global.longitude != 0.0 {
+        if global.userLocation.latitude != 0.0 && global.userLocation.longitude != 0.0 {
             
             global.locationAvalible = true
             

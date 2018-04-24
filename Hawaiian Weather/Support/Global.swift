@@ -18,10 +18,10 @@ struct Global {
     
     var locationAvalible : Bool = false
     var locationAllowed : Bool = false
-    var latitude = 0.0
-    var longitude = 0.0
     
     //var network = Network()
+    
+    var userLocation : location
     
     var inHawaii : Bool = false
     
@@ -30,8 +30,14 @@ struct Global {
     init() {
         
         self.isFirstOpen = firstOpen()
+        self.userLocation = location()
         
     }
+}
+
+struct location {
+    var longitude : Double = 0.0
+    var latitude : Double = 0.0
 }
 
 //initialize with functions or class
