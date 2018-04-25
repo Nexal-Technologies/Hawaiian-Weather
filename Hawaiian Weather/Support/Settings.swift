@@ -17,6 +17,9 @@ struct Settings {
     init() {
         if !firstOpen() {
             
+            //if defaults.object(forKey: "Settings") == nil {
+                
+            //}
             self = defaults.object(forKey: "Settings") as! Settings
             
         }

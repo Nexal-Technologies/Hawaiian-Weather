@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreLocation
-
+import OpenWeatherKit
 
 
 
@@ -30,6 +30,23 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }
+        
+        //weather grab test
+        
+        let weatherApi = WeatherApi(key: "9336dd32923469d935a7cc74234c1f5a")
+        weatherApi.getWeatherFor(lat: "21.3582959405412", lon: "-157.93125104948") { result in
+            switch result {
+            case .success(let weather):
+                //self.cityLabel.text = weather.name //UI builder connections
+                //self.tempLabel.text = "\(weather.main.temp)" //UI builder connections
+                print(weather.main.temp)
+                print(weather)
+            case .error(_):
+                //Do something
+                print("failed")
+                break
+            }
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -42,6 +59,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         global.userLocation.latitude = locValue.latitude
         global.userLocation.longitude = locValue.longitude
+        
+        //Location uptdated call
+        locationHasBeenUpdated()
         
         print("\(global.userLocation.longitude), \(global.userLocation.latitude)")
         
@@ -87,4 +107,3 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
 }
-

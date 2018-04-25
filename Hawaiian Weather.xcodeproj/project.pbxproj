@@ -136,11 +136,11 @@
 		A34C2A072087D26700D033A3 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				A387A7212065C2AF00751BA3 /* NewStation.swift */,
+				A34C2A082087EBFB00D033A3 /* WeatherManager.swift */,
 				A34C2A052087D26000D033A3 /* WeatherRequest.swift */,
+				A387A7212065C2AF00751BA3 /* NewStation.swift */,
 				A3E91225207FD9B7004B2C59 /* GetWeather.swift */,
 				A387A725206611DB00751BA3 /* GetWeatherOld.swift */,
-				A34C2A082087EBFB00D033A3 /* WeatherManager.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";

@@ -21,7 +21,7 @@ struct Global {
     
     //var network = Network()
     
-    var userLocation : location
+    var userLocation : Location
     
     var inHawaii : Bool = false
     
@@ -30,12 +30,12 @@ struct Global {
     init() {
         
         self.isFirstOpen = firstOpen()
-        self.userLocation = location()
+        self.userLocation = Location()
         
     }
 }
 
-struct location {
+struct Location {
     var longitude : Double = 0.0
     var latitude : Double = 0.0
 }

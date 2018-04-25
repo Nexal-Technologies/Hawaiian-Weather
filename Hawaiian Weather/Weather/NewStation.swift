@@ -8,9 +8,6 @@
 
 import Foundation
 
-class station {
+func addStation(_ location: Location) {
     
-    init(longitude: Float, latitude: Float) {
-        
-    }
 }

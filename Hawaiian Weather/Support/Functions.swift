@@ -40,3 +40,11 @@ func startLoadingScreen(_ message: String?) {
 func stopLoadingScreen() {
     SVProgressHUD.dismiss()
 }
+
+func doubleToString(_ input: Double) -> String {
+    return String(format:"%f", input)
+}
+
+func locationHasBeenUpdated() {
+    
+}
