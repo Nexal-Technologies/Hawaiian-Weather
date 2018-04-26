@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF82612225A9F6CC0402DF65A1E8F59E"
-               BlueprintName = "OpenWeatherMapKit"
+               BlueprintIdentifier = "BFBC1047958FC8398E01576BCBA817A1"
+               BlueprintName = "TextFieldEffects"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "OpenWeatherMapKit.framework">
+               BuildableName = "TextFieldEffects.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

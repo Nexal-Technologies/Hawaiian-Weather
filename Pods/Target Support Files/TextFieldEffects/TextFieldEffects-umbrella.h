@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double OpenWeatherMapKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char OpenWeatherMapKitVersionString[];
+FOUNDATION_EXPORT double TextFieldEffectsVersionNumber;
+FOUNDATION_EXPORT const unsigned char TextFieldEffectsVersionString[];
 
