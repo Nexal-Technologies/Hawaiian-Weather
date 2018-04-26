@@ -33,20 +33,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         //weather grab test
         
-        let weatherApi = WeatherApi(key: "9336dd32923469d935a7cc74234c1f5a")
-        weatherApi.getWeatherFor(lat: "21.3582959405412", lon: "-157.93125104948") { result in
-            switch result {
-            case .success(let weather):
-                //self.cityLabel.text = weather.name //UI builder connections
-                //self.tempLabel.text = "\(weather.main.temp)" //UI builder connections
-                print(weather.main.temp)
-                print(weather)
-            case .error(_):
-                //Do something
-                print("failed")
-                break
-            }
-        }
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -63,7 +50,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         //Location uptdated call
         locationHasBeenUpdated()
         
-        print("\(global.userLocation.longitude), \(global.userLocation.latitude)")
+        //stop loading screen after location data is populated
+        stopLoadingScreen()
+        
+        print("\(global.userLocation.latitude), \(global.userLocation.longitude) :")
         
         if global.userLocation.latitude != 0.0 && global.userLocation.longitude != 0.0 {
             

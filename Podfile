@@ -7,8 +7,9 @@ target 'Hawaiian Weather' do
 
   # Pods for Hawaiian Weather
   pod 'SVProgressHUD'
-  pod 'OpenWeatherMapKit'
+  #pod 'OpenWeatherMapKit' #not in use anymore
   pod 'OpenWeatherKit'
+  pod 'TextFieldEffects'
 
   target 'Hawaiian WeatherTests' do
     inherit! :search_paths

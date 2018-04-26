@@ -8,6 +8,7 @@
 
 import Foundation
 import SVProgressHUD
+import OpenWeatherKit
 
 
 let defaults = UserDefaults.standard
@@ -28,9 +29,9 @@ func startLoadingScreen(_ message: String?) {
     
     SVProgressHUD.setDefaultMaskType(.black)
     
-    let Message = message ?? "none"
+    let Message = message ?? ""
     
-    if Message == "none" {
+    if Message == "" {
         SVProgressHUD.show()
     } else {
         SVProgressHUD.show(withStatus: Message)
@@ -46,5 +47,19 @@ func doubleToString(_ input: Double) -> String {
 }
 
 func locationHasBeenUpdated() {
-    
+    let weatherApi = WeatherApi(key: "9336dd32923469d935a7cc74234c1f5a")
+    weatherApi.getWeatherFor(lat: "\(doubleToString(global.userLocation.latitude))", lon: "\(doubleToString(global.userLocation.longitude))") { result in
+        switch result {
+        case .success(let weather):
+            //self.cityLabel.text = weather.name //UI builder connections
+            //self.tempLabel.text = "\(weather.main.)" //UI builder connections
+            print(weather.weather[0].main)
+        //print(weather)
+        case .error(_):
+            //Do something
+            print("failed")
+            break
+        }
+    }
 }
+

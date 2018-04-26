@@ -1,24 +1,24 @@
 PODS:
   - OpenWeatherKit (2.0)
-  - OpenWeatherMapKit (0.2.0)
   - SVProgressHUD (2.2.5)
+  - TextFieldEffects (1.4.0)
 
 DEPENDENCIES:
   - OpenWeatherKit
-  - OpenWeatherMapKit
   - SVProgressHUD
+  - TextFieldEffects
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - OpenWeatherKit
-    - OpenWeatherMapKit
     - SVProgressHUD
+    - TextFieldEffects
 
 SPEC CHECKSUMS:
   OpenWeatherKit: d58c66d7fcaa7eab932e17863b641f4b159a9d61
-  OpenWeatherMapKit: b348bc63affd808b114467a77488eb12a523f0b5
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
 
-PODFILE CHECKSUM: 46df79784a562eb999d162da27df6b71b7469a6a
+PODFILE CHECKSUM: 789f7fa77daf7545d7b33fb9d016a6b03d197984
 
 COCOAPODS: 1.5.0

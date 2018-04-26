@@ -7,87 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0270FCC656544BAEA1BA66CEE98B5D0F /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6042A49B4459E92226D483FD0870D07F /* SVRadialGradientLayer.m */; };
-		02EAB8DA15C1161AD3D5A595E66ABFF8 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9591746BD98E710C204FA14784236F2 /* Functions.swift */; };
-		10AC2126D094F69C6CADB24CEAA02FB9 /* WeatherDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB9AC329995AF8C102E21F11E4D9B1 /* WeatherDescriptor.swift */; };
-		177A0E48960484F210AC456432ACEC1D /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606586E6303F6B5B6E8FAD42BD1B1E1 /* Clouds.swift */; };
+		0F58C64645E5FE6BA19438D198CB6D8B /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D08D8CA77E89767E422329B6AD6815 /* TextFieldEffects-dummy.m */; };
+		0F7A9D7F3C0A233AD4BFBD3DE0DAE7E9 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48310FA7CC59B0FBFD839C164EC44AE4 /* IsaoTextField.swift */; };
+		12C624B9BF2D63868E0E5EB07B32AE0D /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF961DA9552911579278D99EF0DDE0D /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177A0E48960484F210AC456432ACEC1D /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE136AB6B658E46E8E36F19B8C8CDD9F /* Clouds.swift */; };
+		187A5EAE1820E5AB0A07649D4C718FDA /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42AB1215AE26B23AE6643C56D4C44FD /* TextFieldEffects.swift */; };
 		1C6793F61063E361A456DC4D25F33A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		21BCB0CD411F019FDFCAA3E82FDAB10D /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC7F91C81BF7659A55B30003F58D362 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		200DD0BBCD09A98A38B1DBC500449CCC /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE40450373F291AB829A738340F5FD /* YoshikoTextField.swift */; };
+		233BBE5A8DACB7A76FD67690FFD1004D /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C79FA1672436FC86D0C56837867DBC /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23CFFEA5BBB6C0BF675CA32500A50F9D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A03A1CA89C95200A073412E256E917 /* SVProgressHUD.m */; };
+		29132B42F606A28D49E663734179AD14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
 		2A711EC1481FBE319ECB77A1ED82E4E9 /* Pods-Hawaiian WeatherTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F482403A3825FF676C2C7B97A85725F9 /* Pods-Hawaiian WeatherTests-dummy.m */; };
-		2E87CD352CB73E18095F009B3402FC55 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6308BC5ABA38A44E3F0107479E438FA /* NetworkManager.swift */; };
-		33C9650A3794D4CED419856F9A5B4664 /* OpenWeatherMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A1B1F805BAF8BD289E551166984A3 /* OpenWeatherMapKit.swift */; };
-		361203FCB5EB0F2BFA69E46CD512ED09 /* OpenWeatherMapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232127EA7D2539D423707419DC3981CF /* OpenWeatherMapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		391A233A65982A2C6A2D460B192AF95F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE9B82ABAA43EEC0F93A2AE12D8178 /* SVProgressHUD.m */; };
-		3D88562EC7D0A39E73D5FF5BCFC76D5B /* OpenWeatherKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B8834B1DD386D153AB599D0D5B95B1 /* OpenWeatherKit-dummy.m */; };
-		44961176CFB02B34CBD918DA642F6021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		4A4EE1491342D06C4CBF04BC73F91F71 /* OpenWeatherKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CDAECFC066D6D58304908B94E7C22E /* OpenWeatherKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C70B35A5F5F337EC726565CF327208B /* OpenWeatherMapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51CB1614A175EB25569421303E01AC /* OpenWeatherMapKit-dummy.m */; };
-		625716FF6B5D1791ED797DC3B932FE4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
-		62F0C921E2A5BC3AD48B0C677C9F0820 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73961E2015364E640FE62B5B616396 /* RequestBuilder.swift */; };
-		65721CB260017973DFDA57ADFFD78894 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B34F6486E4ACD6C5D4A78FE6E2205 /* Wind.swift */; };
-		6BDE9D25C6889E300963881E7EED4F38 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E527B05B62729DDB3020F1E1926DEC92 /* SVProgressAnimatedView.m */; };
-		6CA59DF2070B4922A3BBADDC4721440F /* Pods-Hawaiian Weather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0002E136B1620A21150496AD98A06C /* Pods-Hawaiian Weather-dummy.m */; };
-		70FFF2916BC2A4E7DDE8C29EC839841C /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C319BA4261B38449F5E0F7B3E76F8E /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72B079F9F6F3FA08255894FE5618C9D4 /* Pods-Hawaiian Weather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E997AA957673B09A405F63A77B653EF0 /* Pods-Hawaiian Weather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		740389B5923713394F9C81198B27E39E /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92DB78CBEE20FDBA922C42BF43C957 /* Sys.swift */; };
-		78E56245620CFDBB902F822FC41B04CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7AE3066CB2AF75E4DCBF6FC8AACFDD /* Constants.swift */; };
+		30C6B39B54CFA73470A687CE0E245988 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AD568FD02043C23F09F5583D551A4736 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D88562EC7D0A39E73D5FF5BCFC76D5B /* OpenWeatherKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DFB9525AAA7E177CBBED3657B66D /* OpenWeatherKit-dummy.m */; };
+		3E95082C478EDE9477AACDA8D19F69A7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C5963F966EDEFCF3A1A839A11682CBF /* SVProgressHUD.bundle */; };
+		4526CD748D04EED801A851DA6ECC1988 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6606004B1FD86CC4956151A5A3DE4AA /* MadokaTextField.swift */; };
+		4A4EE1491342D06C4CBF04BC73F91F71 /* OpenWeatherKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A36F76B0EA0DBB20026056B3401F0E9A /* OpenWeatherKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BFA10EC0A15170C9038477CD1FF5795 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34C9E48EE6840AC7B300E57D90A4A2 /* HoshiTextField.swift */; };
+		58145A940D9A32400FE2C04D8B36D1E0 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A938A5BE828BB9561C0B3BB54FC7B /* SVProgressHUD-dummy.m */; };
+		6010A78BBD297F256D0E811A1786A706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		65721CB260017973DFDA57ADFFD78894 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B4ABF444FFB32969C81BC127BFE86 /* Wind.swift */; };
+		6EE913BD499CBC26C32BE136D3B0123A /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F526A91F8025510F66740C8569E90D /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740389B5923713394F9C81198B27E39E /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C16FB169829706D6C05E84EF73E81 /* Sys.swift */; };
 		7A35D9082AB5CF238189BB55959F05CB /* Pods-Hawaiian WeatherUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5218406FA719D432809AF382D63AA0 /* Pods-Hawaiian WeatherUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A44EFAA444426E83DA93B7EB6BAEAA6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A060C9B6BFD9CB5723BECC25AC7411F /* Main.swift */; };
+		7A44EFAA444426E83DA93B7EB6BAEAA6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9602EB4533E495D148BAD461A26FCD72 /* Main.swift */; };
 		7CDD7A3D3164A41ABDD084E2170C48B6 /* Pods-Hawaiian WeatherTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F20F605BC89C0BFF3439F00AA9C37D8 /* Pods-Hawaiian WeatherTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D1FE28E5365FE498E7F9AEF5FCAC758 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2475BDD4E27904CFE09FECD992E158D /* SVProgressHUD-dummy.m */; };
-		991E8EEF0C2A4CDCCDDC54FF0D694170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		A08190414883CB6FCA1B0A0EDE60902D /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 674EBA8AC478A20FADC1228A31C20D1D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDC6BE01252EAA2D66EB49CF29FED72 /* Pods-Hawaiian Weather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0002E136B1620A21150496AD98A06C /* Pods-Hawaiian Weather-dummy.m */; };
 		A1CA6983F347B51072096FDBF7E00FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		A477717F3C8C8D0B2B45120B02EFB6EA /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1039DB82E4F392077D486EEF20205 /* Forecast.swift */; };
+		A477717F3C8C8D0B2B45120B02EFB6EA /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097125D35D568EF2FA466A4D595CCAA /* Forecast.swift */; };
 		A86404576B8536C68C781D478883A2F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		BC194B50F6DA99F34696B3CE9C4E0634 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EB6C8698C827592ADF4CE310BE712 /* Wind.swift */; };
-		BFB7C4C1BB6AE428B760ED4B8469169B /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF8D007BCFAD4114498D41EB0805B9B /* WeatherData.swift */; };
-		CE89C698FF9F6A665A28ED236BCF8718 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AB6850F1372C20B34581AD7D9BB4D4 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D397622E3A33D241E0B6DC37C94ECD34 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5A772C2454F8AD47CCD524A7F23AA /* Weather.swift */; };
-		D4326A276EA68C696FB384291C415E5E /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D47A9D441BE0B50C824F43E600077 /* WeatherApi.swift */; };
-		D9F7727ECBDDC0FAF61DE67ECD336ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		DB60B09505D701D7074B15B1BF9BAB27 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5855FA2D56292C26D93CFAABA0C5C9B /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD21EBDB289E817B45F30ADF1153F178 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088469DBFB46FC1AE5D2F90C0F147453 /* URLSessionProtocol.swift */; };
-		E36BFD9880A00B80E97516E925D5163E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E05F091D820610CB237995C36F0163F /* SVIndefiniteAnimatedView.m */; };
-		E6EB0D982821BAAF528E85411D0539CB /* ForecastItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BF941552341C7BC89826AB4AB7607 /* ForecastItem.swift */; };
-		EAC51FA05B35B8806D7D2B7FED912CEB /* WeatherMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F58D084768A8CAF71BA33EBA1C927 /* WeatherMode.swift */; };
-		EFB6045E2D400EDBA1FC39691F06F29A /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB01623AAE645BD9630F360465EC18A /* Coord.swift */; };
-		F00BBFDB34671C863D935BE9B5489F0B /* WeatherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FB4B1C718BE74E2A3495AC737EA66 /* WeatherItem.swift */; };
-		F1181DE42CF64F92F9203F7D976F5DB7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 463D81DB319C6C3ADAF881CBF0EA5B59 /* SVProgressHUD.bundle */; };
+		A98FDF4785545B2D9F0A28462330FF5D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A81DF38737D42685566B7735B970744 /* SVIndefiniteAnimatedView.m */; };
+		AD7EB78F2770617E84F9794D794E2568 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E896B8258751D9944275D40B7B128 /* AkiraTextField.swift */; };
+		B2FC11D6E4EBD82EDFF7FE4DD6DB7E2D /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD56D594755CED62F110F2045711CC /* KaedeTextField.swift */; };
+		BD19C050D84D071313B3F59CCB31F125 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C70AE79FF9C7965925F965DAA24C2 /* YokoTextField.swift */; };
+		BFB7C4C1BB6AE428B760ED4B8469169B /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB172108393E3FA8FA7BBD6DA55F559 /* WeatherData.swift */; };
+		C7F25CAFBECB855ACAB6CA39AB42C4B7 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDBD556DC5A4A0BFE0F539E02121CD5 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C869B17A71ADEF72344FCC726A035E06 /* Pods-Hawaiian Weather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E997AA957673B09A405F63A77B653EF0 /* Pods-Hawaiian Weather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD20BC4EAB0AC7DD681C713292750EFD /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335E60C7C90E99BE364C26C2E47CD84 /* MinoruTextField.swift */; };
+		D397622E3A33D241E0B6DC37C94ECD34 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5005B29B7A94A3DF954F6884D3E710 /* Weather.swift */; };
+		D4326A276EA68C696FB384291C415E5E /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743715D1107A2E637C60B3BECB75370A /* WeatherApi.swift */; };
+		DD21EBDB289E817B45F30ADF1153F178 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25033CC9B8763A8B955BE342A3BECEF /* URLSessionProtocol.swift */; };
+		DFC8000B87C431901988DDED7F603EE4 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337CF222FD8593BB372CDF87F89CA381 /* SVProgressAnimatedView.m */; };
+		E5991C6647DBD83A4F1788A9015AB4E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		EC25AA3E0903E6D86BD49A18EB760201 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0CF05E8D549F0AA9C6F5330594F92 /* SVRadialGradientLayer.m */; };
+		EC6D44BC7CDCCE6E1767B3AAFDDABE02 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38C0B4AE1120BC7619EE7E3CED636B /* JiroTextField.swift */; };
+		EFB6045E2D400EDBA1FC39691F06F29A /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBEA32B336DC028CD02CF8C47367F0 /* Coord.swift */; };
+		F63714A29A717178D1733A11A1C03ED8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D78B5F2C59BEBACDBD427A7250CBD7 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAA339DF6C2AD6A9AA76E693C98E132F /* Pods-Hawaiian WeatherUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A9521D8A329C43D8253AD8A9DE5B /* Pods-Hawaiian WeatherUITests-dummy.m */; };
-		FFB4B380827A2F76588FC1167861A025 /* ForecastItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E811C71DBFD99511EF6F3A53A422369D /* ForecastItemsList.swift */; };
+		FB490910ABF93B7332F93028358521AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		163E67BA4FEBAD899B1F3BBCB58F32B1 /* PBXContainerItemProxy */ = {
+		161F2AF3121DA5C8E7FCBD2B12150D36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 77B1C69F76BBA37393876EED031B54C2;
-			remoteInfo = SVProgressHUD;
+			remoteGlobalIDString = BFBC1047958FC8398E01576BCBA817A1;
+			remoteInfo = TextFieldEffects;
 		};
 		463146D828AF26F415065A5D98E7C8E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5219CF6BC2C9407B6B151F194893F78E;
+			remoteGlobalIDString = 4124C0A571DFC8DD395670E3340DFCA2;
 			remoteInfo = "Pods-Hawaiian Weather";
 		};
-		A4FDD9C266AC2FC4A642B5A5EE9D2058 /* PBXContainerItemProxy */ = {
+		8218F8C925C3788EAF7AFC088C2EF638 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF82612225A9F6CC0402DF65A1E8F59E;
-			remoteInfo = OpenWeatherMapKit;
+			remoteGlobalIDString = 44FE7E5891A4EE6E00E3882CBC85C96E;
+			remoteInfo = SVProgressHUD;
 		};
 		AC2E5CC8275867907DEB942DFA616A96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5219CF6BC2C9407B6B151F194893F78E;
+			remoteGlobalIDString = 4124C0A571DFC8DD395670E3340DFCA2;
 			remoteInfo = "Pods-Hawaiian Weather";
 		};
-		CEC6E42F8D811E795C600A67DF796EB3 /* PBXContainerItemProxy */ = {
+		F889CD756B66F3FD97C9E924BFE09AFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -97,118 +96,117 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		088469DBFB46FC1AE5D2F90C0F147453 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionProtocol.swift; path = Sources/URLSessionProtocol.swift; sourceTree = "<group>"; };
-		092AFC5077EC490BD531CA448E8F63E1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A03A1CA89C95200A073412E256E917 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		0205499508435652E136826D96F1D3C1 /* Pods_Hawaiian_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hawaiian_WeatherTests.framework; path = "Pods-Hawaiian WeatherTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		097F89008BFC45925A79BAC1FD9D4C82 /* OpenWeatherKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenWeatherKit.modulemap; sourceTree = "<group>"; };
+		0C5963F966EDEFCF3A1A839A11682CBF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		0D7E670F8D634CFBC89BEAB7F83158D9 /* Pods-Hawaiian WeatherTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hawaiian WeatherTests-resources.sh"; sourceTree = "<group>"; };
 		0E93CA9BB5031485035BF27DEDACB0F2 /* Pods-Hawaiian Weather-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hawaiian Weather-resources.sh"; sourceTree = "<group>"; };
 		12ECC5DB12A6CBFFB41D0A070A4C3928 /* Pods-Hawaiian WeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hawaiian WeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		13BE9B82ABAA43EEC0F93A2AE12D8178 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		15F570DDC889126A6E4084A03CCCDF85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BDF5ABD58D7394A554A002052AC7E9C /* OpenWeatherMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenWeatherMapKit.framework; path = OpenWeatherMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C34C9E48EE6840AC7B300E57D90A4A2 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		1CF6430217EFB13DFFE25E7AF4C4C0C9 /* Pods-Hawaiian WeatherUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hawaiian WeatherUITests-frameworks.sh"; sourceTree = "<group>"; };
-		1D5F58D084768A8CAF71BA33EBA1C927 /* WeatherMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherMode.swift; path = OpenWeatherMapKit/Builders/WeatherMode.swift; sourceTree = "<group>"; };
-		232127EA7D2539D423707419DC3981CF /* OpenWeatherMapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherMapKit-umbrella.h"; sourceTree = "<group>"; };
-		23401539B79036D6303BA65BEA54CCBF /* Pods_Hawaiian_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hawaiian_WeatherTests.framework; path = "Pods-Hawaiian WeatherTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B73961E2015364E640FE62B5B616396 /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBuilder.swift; path = OpenWeatherMapKit/Builders/RequestBuilder.swift; sourceTree = "<group>"; };
+		215C70AE79FF9C7965925F965DAA24C2 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		22F526A91F8025510F66740C8569E90D /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		2ECCFFFE76D3B55787B6BDA8561EFB33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F20F605BC89C0BFF3439F00AA9C37D8 /* Pods-Hawaiian WeatherTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hawaiian WeatherTests-umbrella.h"; sourceTree = "<group>"; };
+		31A4A20A6415FE5F08F0496B8A5B39D3 /* OpenWeatherKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherKit-prefix.pch"; sourceTree = "<group>"; };
+		337CF222FD8593BB372CDF87F89CA381 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		36E697E7A35D699B33ED707CC6991923 /* Pods-Hawaiian WeatherUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hawaiian WeatherUITests.modulemap"; sourceTree = "<group>"; };
+		3C5005B29B7A94A3DF954F6884D3E710 /* Weather.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = Sources/Model/Weather.swift; sourceTree = "<group>"; };
+		3C87C4B4FA0BA5DA608F2F7AF0046456 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		3FF961DA9552911579278D99EF0DDE0D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		4097125D35D568EF2FA466A4D595CCAA /* Forecast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = Sources/Model/Forecast.swift; sourceTree = "<group>"; };
 		40FF849D874CFD1A1248067F7C6830EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4404A82D3B74E8D1A8B6F7AA4163FF67 /* OpenWeatherMapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenWeatherMapKit.modulemap; sourceTree = "<group>"; };
-		4606586E6303F6B5B6E8FAD42BD1B1E1 /* Clouds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clouds.swift; path = Sources/Model/Clouds.swift; sourceTree = "<group>"; };
-		463D81DB319C6C3ADAF881CBF0EA5B59 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		47ED60B42E9B8457DD21A2D09718E448 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A060C9B6BFD9CB5723BECC25AC7411F /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Sources/Model/Main.swift; sourceTree = "<group>"; };
-		4BF8D007BCFAD4114498D41EB0805B9B /* WeatherData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Sources/Model/WeatherData.swift; sourceTree = "<group>"; };
+		47D08D8CA77E89767E422329B6AD6815 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		48310FA7CC59B0FBFD839C164EC44AE4 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		4B55DFB9525AAA7E177CBBED3657B66D /* OpenWeatherKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenWeatherKit-dummy.m"; sourceTree = "<group>"; };
 		4E0002E136B1620A21150496AD98A06C /* Pods-Hawaiian Weather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hawaiian Weather-dummy.m"; sourceTree = "<group>"; };
-		4EC7F91C81BF7659A55B30003F58D362 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		4F4F2F1F0EA35531AC0DCF2285C87ACA /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FE40450373F291AB829A738340F5FD /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		52BD56D594755CED62F110F2045711CC /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		56F20054F9624E48C45F813BB431794A /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		5C92DB78CBEE20FDBA922C42BF43C957 /* Sys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sys.swift; path = Sources/Model/Sys.swift; sourceTree = "<group>"; };
-		6042A49B4459E92226D483FD0870D07F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		5BB0CF05E8D549F0AA9C6F5330594F92 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		5E8C22B19BA0798AE240178655576977 /* Pods_Hawaiian_WeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hawaiian_WeatherUITests.framework; path = "Pods-Hawaiian WeatherUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		620440954BD9072D5AB5C9FD0E0001C4 /* Pods-Hawaiian WeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hawaiian WeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
-		622BF941552341C7BC89826AB4AB7607 /* ForecastItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastItem.swift; path = OpenWeatherMapKit/Models/ForecastItem.swift; sourceTree = "<group>"; };
 		6429D7836C76D93B11051EE398E22C3F /* Pods-Hawaiian Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hawaiian Weather.debug.xcconfig"; sourceTree = "<group>"; };
-		674EBA8AC478A20FADC1228A31C20D1D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		677A1B1F805BAF8BD289E551166984A3 /* OpenWeatherMapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenWeatherMapKit.swift; path = OpenWeatherMapKit/OpenWeatherMapKit.swift; sourceTree = "<group>"; };
-		6AEE8463FCF4BACC6489D5D9FEA74F36 /* Pods_Hawaiian_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hawaiian_Weather.framework; path = "Pods-Hawaiian Weather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D7AE3066CB2AF75E4DCBF6FC8AACFDD /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = OpenWeatherMapKit/Constants/Constants.swift; sourceTree = "<group>"; };
+		64323510FEAC9557C742FDC31A8D1061 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A81DF38737D42685566B7735B970744 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		6D84103E4AD31E485EEB626CB85F13A2 /* Pods-Hawaiian WeatherTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hawaiian WeatherTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F3DDF4F551B8EC368A00C370EBB11FE /* Pods-Hawaiian Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hawaiian Weather.release.xcconfig"; sourceTree = "<group>"; };
-		764B99C491BADA78C362BB26323B4ADF /* OpenWeatherKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenWeatherKit.modulemap; sourceTree = "<group>"; };
+		73D78B5F2C59BEBACDBD427A7250CBD7 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		743715D1107A2E637C60B3BECB75370A /* WeatherApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherApi.swift; path = Sources/WeatherApi.swift; sourceTree = "<group>"; };
 		7ABB6B22AB67FEDD7B1A285B45908254 /* Pods-Hawaiian WeatherTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hawaiian WeatherTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		873B34F6486E4ACD6C5D4A78FE6E2205 /* Wind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wind.swift; path = Sources/Model/Wind.swift; sourceTree = "<group>"; };
+		7C48CCE3AC36654E12BEDA78B150CE8F /* OpenWeatherKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenWeatherKit.framework; path = OpenWeatherKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB172108393E3FA8FA7BBD6DA55F559 /* WeatherData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Sources/Model/WeatherData.swift; sourceTree = "<group>"; };
+		8335E60C7C90E99BE364C26C2E47CD84 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		881C16FB169829706D6C05E84EF73E81 /* Sys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sys.swift; path = Sources/Model/Sys.swift; sourceTree = "<group>"; };
 		892B2AFA4C376D476E75BD3982F3668E /* Pods-Hawaiian WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hawaiian WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0E896B8258751D9944275D40B7B128 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		8BDBD556DC5A4A0BFE0F539E02121CD5 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		8D07CCACCE3D2DBA090724A1CFE56768 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
 		92570CC586FC095357216347F50C0F2B /* Pods-Hawaiian WeatherUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hawaiian WeatherUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952A938A5BE828BB9561C0B3BB54FC7B /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		9587AC54E3C3D6228FC444C29ED487E5 /* Pods-Hawaiian Weather-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hawaiian Weather-frameworks.sh"; sourceTree = "<group>"; };
-		994DDD013F1122B90AA5D225882CB9B3 /* OpenWeatherMapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenWeatherMapKit.xcconfig; sourceTree = "<group>"; };
-		9E05F091D820610CB237995C36F0163F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9602EB4533E495D148BAD461A26FCD72 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Sources/Model/Main.swift; sourceTree = "<group>"; };
 		9E5218406FA719D432809AF382D63AA0 /* Pods-Hawaiian WeatherUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hawaiian WeatherUITests-umbrella.h"; sourceTree = "<group>"; };
+		9EF7221CB8E66EA16F9E0A40278ABE54 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0242F213303A64C2E41FFF64B5385EF /* Pods-Hawaiian WeatherTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hawaiian WeatherTests-frameworks.sh"; sourceTree = "<group>"; };
-		A3E5B903D4FD7EE894D6243A4EF50435 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A60EB6C8698C827592ADF4CE310BE712 /* Wind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wind.swift; path = OpenWeatherMapKit/Models/Wind.swift; sourceTree = "<group>"; };
+		A36F76B0EA0DBB20026056B3401F0E9A /* OpenWeatherKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherKit-umbrella.h"; sourceTree = "<group>"; };
+		AD568FD02043C23F09F5583D551A4736 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		AD628139AFE206D7B788F367ABBB5B13 /* Pods-Hawaiian WeatherTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hawaiian WeatherTests.modulemap"; sourceTree = "<group>"; };
-		AE92503E8C38948BEBF3C864F576D74F /* OpenWeatherKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherKit-prefix.pch"; sourceTree = "<group>"; };
 		B0A5D339491BB69FD3BA6AE42C34C580 /* Pods-Hawaiian WeatherUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hawaiian WeatherUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0AB6850F1372C20B34581AD7D9BB4D4 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		B3AB9AC329995AF8C102E21F11E4D9B1 /* WeatherDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherDescriptor.swift; path = OpenWeatherMapKit/Models/WeatherDescriptor.swift; sourceTree = "<group>"; };
-		B6308BC5ABA38A44E3F0107479E438FA /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = OpenWeatherMapKit/Networking/NetworkManager.swift; sourceTree = "<group>"; };
-		B68FB4B1C718BE74E2A3495AC737EA66 /* WeatherItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherItem.swift; path = OpenWeatherMapKit/Models/WeatherItem.swift; sourceTree = "<group>"; };
-		B7EF37135CDDE79447DFE6DE5E9B44D6 /* OpenWeatherMapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherMapKit-prefix.pch"; sourceTree = "<group>"; };
-		C6C319BA4261B38449F5E0F7B3E76F8E /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		B889D349DF5E465C862BA7E02C1A074B /* OpenWeatherKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenWeatherKit.xcconfig; sourceTree = "<group>"; };
+		B8C79FA1672436FC86D0C56837867DBC /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		BFBB53E7C4FD3AF630A157B93550955C /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		C33B4ABF444FFB32969C81BC127BFE86 /* Wind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wind.swift; path = Sources/Model/Wind.swift; sourceTree = "<group>"; };
 		CCCBAE8431B10D9B55795429386763F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA2AB8E2104514BB93F52548A7D6934 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE136AB6B658E46E8E36F19B8C8CDD9F /* Clouds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clouds.swift; path = Sources/Model/Clouds.swift; sourceTree = "<group>"; };
 		CF6D34D88FEB506E9230BA4EF211339D /* Pods-Hawaiian Weather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hawaiian Weather.modulemap"; sourceTree = "<group>"; };
-		CFB01623AAE645BD9630F360465EC18A /* Coord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coord.swift; path = Sources/Model/Coord.swift; sourceTree = "<group>"; };
+		D1BE3B0EAD1B09506183718E170A1C66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C4F773C7C951AC56695B3BE0606E17 /* Pods-Hawaiian WeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hawaiian WeatherTests.release.xcconfig"; sourceTree = "<group>"; };
-		D2475BDD4E27904CFE09FECD992E158D /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		D5E9B4ECB306E6969DE4A0D67AEF805E /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		D6A5A772C2454F8AD47CCD524A7F23AA /* Weather.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = Sources/Model/Weather.swift; sourceTree = "<group>"; };
-		D9591746BD98E710C204FA14784236F2 /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = OpenWeatherMapKit/Functions/Functions.swift; sourceTree = "<group>"; };
-		DADA77000D2981AC60DE47291586674E /* OpenWeatherKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenWeatherKit.framework; path = OpenWeatherKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD15780BD04C9F2D5842D8B5233657C3 /* OpenWeatherKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenWeatherKit.xcconfig; sourceTree = "<group>"; };
-		E0E1039DB82E4F392077D486EEF20205 /* Forecast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = Sources/Model/Forecast.swift; sourceTree = "<group>"; };
-		E527B05B62729DDB3020F1E1926DEC92 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		E5B8834B1DD386D153AB599D0D5B95B1 /* OpenWeatherKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenWeatherKit-dummy.m"; sourceTree = "<group>"; };
-		E811C71DBFD99511EF6F3A53A422369D /* ForecastItemsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastItemsList.swift; path = OpenWeatherMapKit/Models/ForecastItemsList.swift; sourceTree = "<group>"; };
-		E8CDAECFC066D6D58304908B94E7C22E /* OpenWeatherKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenWeatherKit-umbrella.h"; sourceTree = "<group>"; };
+		D25033CC9B8763A8B955BE342A3BECEF /* URLSessionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionProtocol.swift; path = Sources/URLSessionProtocol.swift; sourceTree = "<group>"; };
+		D50618CCB1AF1591CFDFFB1405BC23B4 /* Pods_Hawaiian_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hawaiian_Weather.framework; path = "Pods-Hawaiian Weather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6606004B1FD86CC4956151A5A3DE4AA /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		D7FBEA32B336DC028CD02CF8C47367F0 /* Coord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coord.swift; path = Sources/Model/Coord.swift; sourceTree = "<group>"; };
+		DA38C0B4AE1120BC7619EE7E3CED636B /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		E42AB1215AE26B23AE6643C56D4C44FD /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
 		E997AA957673B09A405F63A77B653EF0 /* Pods-Hawaiian Weather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hawaiian Weather-umbrella.h"; sourceTree = "<group>"; };
+		E9A91DCA2385D685F94B6C7AADB1318E /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		EA751734A9578C700D9F8063303FB0EE /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		EA79F59A4722377CE1A5505B95E419F4 /* Pods-Hawaiian Weather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hawaiian Weather-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EAE5A9521D8A329C43D8253AD8A9DE5B /* Pods-Hawaiian WeatherUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hawaiian WeatherUITests-dummy.m"; sourceTree = "<group>"; };
 		EBB5AB72FDEE921CA2B1B2C0F11013EF /* Pods-Hawaiian Weather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hawaiian Weather-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF51CB1614A175EB25569421303E01AC /* OpenWeatherMapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenWeatherMapKit-dummy.m"; sourceTree = "<group>"; };
-		F29F96983F3B08A082E3C443260FAEF5 /* Pods_Hawaiian_WeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hawaiian_WeatherUITests.framework; path = "Pods-Hawaiian WeatherUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3A4B2086ACA7A98460D0FD510D37046 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		ED42D21264457ACD9C5D931FAAF2A0B8 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		F482403A3825FF676C2C7B97A85725F9 /* Pods-Hawaiian WeatherTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hawaiian WeatherTests-dummy.m"; sourceTree = "<group>"; };
-		F5855FA2D56292C26D93CFAABA0C5C9B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		FB95692394734CCAB2D9000DA9554BFF /* Pods-Hawaiian WeatherUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hawaiian WeatherUITests-resources.sh"; sourceTree = "<group>"; };
 		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FE9D47A9D441BE0B50C824F43E600077 /* WeatherApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherApi.swift; path = Sources/WeatherApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3250D10A6CC349C8B5F13B0E9B405D4D /* Frameworks */ = {
+		1FE069AD5A6DBB368F5437EA8A2663FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44961176CFB02B34CBD918DA642F6021 /* Foundation.framework in Frameworks */,
-				625716FF6B5D1791ED797DC3B932FE4B /* QuartzCore.framework in Frameworks */,
+				6010A78BBD297F256D0E811A1786A706 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FDC23666535851B83DA57C8BA503E23 /* Frameworks */ = {
+		51A473E0D9D02ECFAADFF864FAC0BD24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991E8EEF0C2A4CDCCDDC54FF0D694170 /* Foundation.framework in Frameworks */,
+				E5991C6647DBD83A4F1788A9015AB4E0 /* Foundation.framework in Frameworks */,
+				FB490910ABF93B7332F93028358521AB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		730CA9816A48EE75C4A9B40748DBDB17 /* Frameworks */ = {
+		63AF2BD892D6A8506B580BBB1E57FF63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F7727ECBDDC0FAF61DE67ECD336ECF /* Foundation.framework in Frameworks */,
+				29132B42F606A28D49E663734179AD14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,33 +237,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0000D6572270E40EF9616CF4CB4B9B54 /* Pods */ = {
+		13BD432A83A024CDDA89963D61FB1BD6 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				03EA12B200F9F9E9B28D5CC7C65A5599 /* OpenWeatherKit */,
-				CBBDDFEB56B2473296A5D4CC8F36F5D6 /* OpenWeatherMapKit */,
-				6E212D1ACCB7C39C5B773B54E75C785D /* SVProgressHUD */,
+				8A0E896B8258751D9944275D40B7B128 /* AkiraTextField.swift */,
+				1C34C9E48EE6840AC7B300E57D90A4A2 /* HoshiTextField.swift */,
+				48310FA7CC59B0FBFD839C164EC44AE4 /* IsaoTextField.swift */,
+				DA38C0B4AE1120BC7619EE7E3CED636B /* JiroTextField.swift */,
+				52BD56D594755CED62F110F2045711CC /* KaedeTextField.swift */,
+				D6606004B1FD86CC4956151A5A3DE4AA /* MadokaTextField.swift */,
+				8335E60C7C90E99BE364C26C2E47CD84 /* MinoruTextField.swift */,
+				E42AB1215AE26B23AE6643C56D4C44FD /* TextFieldEffects.swift */,
+				215C70AE79FF9C7965925F965DAA24C2 /* YokoTextField.swift */,
+				50FE40450373F291AB829A738340F5FD /* YoshikoTextField.swift */,
+				C12751A95117DDC9E194514F0DBA5312 /* Support Files */,
 			);
-			name = Pods;
+			name = TextFieldEffects;
+			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
-		03EA12B200F9F9E9B28D5CC7C65A5599 /* OpenWeatherKit */ = {
+		2B773DF5BC8FC138C15DE319784D2E79 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4606586E6303F6B5B6E8FAD42BD1B1E1 /* Clouds.swift */,
-				CFB01623AAE645BD9630F360465EC18A /* Coord.swift */,
-				E0E1039DB82E4F392077D486EEF20205 /* Forecast.swift */,
-				4A060C9B6BFD9CB5723BECC25AC7411F /* Main.swift */,
-				5C92DB78CBEE20FDBA922C42BF43C957 /* Sys.swift */,
-				088469DBFB46FC1AE5D2F90C0F147453 /* URLSessionProtocol.swift */,
-				D6A5A772C2454F8AD47CCD524A7F23AA /* Weather.swift */,
-				FE9D47A9D441BE0B50C824F43E600077 /* WeatherApi.swift */,
-				4BF8D007BCFAD4114498D41EB0805B9B /* WeatherData.swift */,
-				873B34F6486E4ACD6C5D4A78FE6E2205 /* Wind.swift */,
-				D08C93C8D08CE706DA48749415886784 /* Support Files */,
+				2ECCFFFE76D3B55787B6BDA8561EFB33 /* Info.plist */,
+				097F89008BFC45925A79BAC1FD9D4C82 /* OpenWeatherKit.modulemap */,
+				B889D349DF5E465C862BA7E02C1A074B /* OpenWeatherKit.xcconfig */,
+				4B55DFB9525AAA7E177CBBED3657B66D /* OpenWeatherKit-dummy.m */,
+				31A4A20A6415FE5F08F0496B8A5B39D3 /* OpenWeatherKit-prefix.pch */,
+				A36F76B0EA0DBB20026056B3401F0E9A /* OpenWeatherKit-umbrella.h */,
 			);
-			name = OpenWeatherKit;
-			path = OpenWeatherKit;
+			name = "Support Files";
+			path = "../Target Support Files/OpenWeatherKit";
 			sourceTree = "<group>";
 		};
 		36803878E0B69A8B83C0D40CA3EDF4E2 /* Pods-Hawaiian Weather */ = {
@@ -294,6 +296,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4738D49E113B6A3CFACC818C5E0376A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C5963F966EDEFCF3A1A839A11682CBF /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4E4FAAFFD280DA6789033DDBA6765A8A /* Pods-Hawaiian WeatherUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +320,19 @@
 			);
 			name = "Pods-Hawaiian WeatherUITests";
 			path = "Target Support Files/Pods-Hawaiian WeatherUITests";
+			sourceTree = "<group>";
+		};
+		5C59CF5868B1957C9BAEF34900A83756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C48CCE3AC36654E12BEDA78B150CE8F /* OpenWeatherKit.framework */,
+				D50618CCB1AF1591CFDFFB1405BC23B4 /* Pods_Hawaiian_Weather.framework */,
+				0205499508435652E136826D96F1D3C1 /* Pods_Hawaiian_WeatherTests.framework */,
+				5E8C22B19BA0798AE240178655576977 /* Pods_Hawaiian_WeatherUITests.framework */,
+				9EF7221CB8E66EA16F9E0A40278ABE54 /* SVProgressHUD.framework */,
+				4F4F2F1F0EA35531AC0DCF2285C87ACA /* TextFieldEffects.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		61FE146074D6F9D25E4F3ACD6C7798C1 /* Pods-Hawaiian WeatherTests */ = {
@@ -330,43 +353,18 @@
 			path = "Target Support Files/Pods-Hawaiian WeatherTests";
 			sourceTree = "<group>";
 		};
-		6E212D1ACCB7C39C5B773B54E75C785D /* SVProgressHUD */ = {
+		661D02504D8E3709AB5BD6A44AB6B0CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5855FA2D56292C26D93CFAABA0C5C9B /* SVIndefiniteAnimatedView.h */,
-				9E05F091D820610CB237995C36F0163F /* SVIndefiniteAnimatedView.m */,
-				4EC7F91C81BF7659A55B30003F58D362 /* SVProgressAnimatedView.h */,
-				E527B05B62729DDB3020F1E1926DEC92 /* SVProgressAnimatedView.m */,
-				674EBA8AC478A20FADC1228A31C20D1D /* SVProgressHUD.h */,
-				13BE9B82ABAA43EEC0F93A2AE12D8178 /* SVProgressHUD.m */,
-				B0AB6850F1372C20B34581AD7D9BB4D4 /* SVRadialGradientLayer.h */,
-				6042A49B4459E92226D483FD0870D07F /* SVRadialGradientLayer.m */,
-				73216926E912FF2E07E4245409BFE264 /* Resources */,
-				E65C3CCE0EDDB2C4DCB837D29C42154F /* Support Files */,
+				D1BE3B0EAD1B09506183718E170A1C66 /* Info.plist */,
+				EA751734A9578C700D9F8063303FB0EE /* SVProgressHUD.modulemap */,
+				BFBB53E7C4FD3AF630A157B93550955C /* SVProgressHUD.xcconfig */,
+				952A938A5BE828BB9561C0B3BB54FC7B /* SVProgressHUD-dummy.m */,
+				3C87C4B4FA0BA5DA608F2F7AF0046456 /* SVProgressHUD-prefix.pch */,
+				73D78B5F2C59BEBACDBD427A7250CBD7 /* SVProgressHUD-umbrella.h */,
 			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		73216926E912FF2E07E4245409BFE264 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				463D81DB319C6C3ADAF881CBF0EA5B59 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		73B9CB6531B925068AB0DF3CF33C6C20 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DADA77000D2981AC60DE47291586674E /* OpenWeatherKit.framework */,
-				1BDF5ABD58D7394A554A002052AC7E9C /* OpenWeatherMapKit.framework */,
-				6AEE8463FCF4BACC6489D5D9FEA74F36 /* Pods_Hawaiian_Weather.framework */,
-				23401539B79036D6303BA65BEA54CCBF /* Pods_Hawaiian_WeatherTests.framework */,
-				F29F96983F3B08A082E3C443260FAEF5 /* Pods_Hawaiian_WeatherUITests.framework */,
-				092AFC5077EC490BD531CA448E8F63E1 /* SVProgressHUD.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -374,10 +372,28 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				0000D6572270E40EF9616CF4CB4B9B54 /* Pods */,
-				73B9CB6531B925068AB0DF3CF33C6C20 /* Products */,
+				B796554F44B1533FB20745E3DC267B7C /* Pods */,
+				5C59CF5868B1957C9BAEF34900A83756 /* Products */,
 				8920957CA2C36825A8A966A24AB8BB50 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82A9F4D8E4FEBAC6283425817113D632 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3FF961DA9552911579278D99EF0DDE0D /* SVIndefiniteAnimatedView.h */,
+				6A81DF38737D42685566B7735B970744 /* SVIndefiniteAnimatedView.m */,
+				8BDBD556DC5A4A0BFE0F539E02121CD5 /* SVProgressAnimatedView.h */,
+				337CF222FD8593BB372CDF87F89CA381 /* SVProgressAnimatedView.m */,
+				AD568FD02043C23F09F5583D551A4736 /* SVProgressHUD.h */,
+				00A03A1CA89C95200A073412E256E917 /* SVProgressHUD.m */,
+				B8C79FA1672436FC86D0C56837867DBC /* SVRadialGradientLayer.h */,
+				5BB0CF05E8D549F0AA9C6F5330594F92 /* SVRadialGradientLayer.m */,
+				4738D49E113B6A3CFACC818C5E0376A7 /* Resources */,
+				661D02504D8E3709AB5BD6A44AB6B0CB /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		8920957CA2C36825A8A966A24AB8BB50 /* Targets Support Files */ = {
@@ -390,6 +406,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		924F876A85C83762B5F005DA4670FC70 /* OpenWeatherKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE136AB6B658E46E8E36F19B8C8CDD9F /* Clouds.swift */,
+				D7FBEA32B336DC028CD02CF8C47367F0 /* Coord.swift */,
+				4097125D35D568EF2FA466A4D595CCAA /* Forecast.swift */,
+				9602EB4533E495D148BAD461A26FCD72 /* Main.swift */,
+				881C16FB169829706D6C05E84EF73E81 /* Sys.swift */,
+				D25033CC9B8763A8B955BE342A3BECEF /* URLSessionProtocol.swift */,
+				3C5005B29B7A94A3DF954F6884D3E710 /* Weather.swift */,
+				743715D1107A2E637C60B3BECB75370A /* WeatherApi.swift */,
+				7CB172108393E3FA8FA7BBD6DA55F559 /* WeatherData.swift */,
+				C33B4ABF444FFB32969C81BC127BFE86 /* Wind.swift */,
+				2B773DF5BC8FC138C15DE319784D2E79 /* Support Files */,
+			);
+			name = OpenWeatherKit;
+			path = OpenWeatherKit;
+			sourceTree = "<group>";
+		};
 		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,66 +434,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CBBDDFEB56B2473296A5D4CC8F36F5D6 /* OpenWeatherMapKit */ = {
+		B796554F44B1533FB20745E3DC267B7C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D7AE3066CB2AF75E4DCBF6FC8AACFDD /* Constants.swift */,
-				622BF941552341C7BC89826AB4AB7607 /* ForecastItem.swift */,
-				E811C71DBFD99511EF6F3A53A422369D /* ForecastItemsList.swift */,
-				D9591746BD98E710C204FA14784236F2 /* Functions.swift */,
-				B6308BC5ABA38A44E3F0107479E438FA /* NetworkManager.swift */,
-				677A1B1F805BAF8BD289E551166984A3 /* OpenWeatherMapKit.swift */,
-				2B73961E2015364E640FE62B5B616396 /* RequestBuilder.swift */,
-				B3AB9AC329995AF8C102E21F11E4D9B1 /* WeatherDescriptor.swift */,
-				B68FB4B1C718BE74E2A3495AC737EA66 /* WeatherItem.swift */,
-				1D5F58D084768A8CAF71BA33EBA1C927 /* WeatherMode.swift */,
-				A60EB6C8698C827592ADF4CE310BE712 /* Wind.swift */,
-				E1D9C8B7D6CA6890E2274B2639C5F846 /* Support Files */,
+				924F876A85C83762B5F005DA4670FC70 /* OpenWeatherKit */,
+				82A9F4D8E4FEBAC6283425817113D632 /* SVProgressHUD */,
+				13BD432A83A024CDDA89963D61FB1BD6 /* TextFieldEffects */,
 			);
-			name = OpenWeatherMapKit;
-			path = OpenWeatherMapKit;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D08C93C8D08CE706DA48749415886784 /* Support Files */ = {
+		C12751A95117DDC9E194514F0DBA5312 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				47ED60B42E9B8457DD21A2D09718E448 /* Info.plist */,
-				764B99C491BADA78C362BB26323B4ADF /* OpenWeatherKit.modulemap */,
-				DD15780BD04C9F2D5842D8B5233657C3 /* OpenWeatherKit.xcconfig */,
-				E5B8834B1DD386D153AB599D0D5B95B1 /* OpenWeatherKit-dummy.m */,
-				AE92503E8C38948BEBF3C864F576D74F /* OpenWeatherKit-prefix.pch */,
-				E8CDAECFC066D6D58304908B94E7C22E /* OpenWeatherKit-umbrella.h */,
+				64323510FEAC9557C742FDC31A8D1061 /* Info.plist */,
+				ED42D21264457ACD9C5D931FAAF2A0B8 /* TextFieldEffects.modulemap */,
+				8D07CCACCE3D2DBA090724A1CFE56768 /* TextFieldEffects.xcconfig */,
+				47D08D8CA77E89767E422329B6AD6815 /* TextFieldEffects-dummy.m */,
+				E9A91DCA2385D685F94B6C7AADB1318E /* TextFieldEffects-prefix.pch */,
+				22F526A91F8025510F66740C8569E90D /* TextFieldEffects-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/OpenWeatherKit";
-			sourceTree = "<group>";
-		};
-		E1D9C8B7D6CA6890E2274B2639C5F846 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3E5B903D4FD7EE894D6243A4EF50435 /* Info.plist */,
-				4404A82D3B74E8D1A8B6F7AA4163FF67 /* OpenWeatherMapKit.modulemap */,
-				994DDD013F1122B90AA5D225882CB9B3 /* OpenWeatherMapKit.xcconfig */,
-				EF51CB1614A175EB25569421303E01AC /* OpenWeatherMapKit-dummy.m */,
-				B7EF37135CDDE79447DFE6DE5E9B44D6 /* OpenWeatherMapKit-prefix.pch */,
-				232127EA7D2539D423707419DC3981CF /* OpenWeatherMapKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OpenWeatherMapKit";
-			sourceTree = "<group>";
-		};
-		E65C3CCE0EDDB2C4DCB837D29C42154F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				15F570DDC889126A6E4084A03CCCDF85 /* Info.plist */,
-				56F20054F9624E48C45F813BB431794A /* SVProgressHUD.modulemap */,
-				D5E9B4ECB306E6969DE4A0D67AEF805E /* SVProgressHUD.xcconfig */,
-				D2475BDD4E27904CFE09FECD992E158D /* SVProgressHUD-dummy.m */,
-				F3A4B2086ACA7A98460D0FD510D37046 /* SVProgressHUD-prefix.pch */,
-				C6C319BA4261B38449F5E0F7B3E76F8E /* SVProgressHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			path = "../Target Support Files/TextFieldEffects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,31 +469,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FBDCE180D4A4E271432472CB6D7E541 /* Headers */ = {
+		58F702ECE29066548041AAB3ED00101F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB60B09505D701D7074B15B1BF9BAB27 /* SVIndefiniteAnimatedView.h in Headers */,
-				21BCB0CD411F019FDFCAA3E82FDAB10D /* SVProgressAnimatedView.h in Headers */,
-				70FFF2916BC2A4E7DDE8C29EC839841C /* SVProgressHUD-umbrella.h in Headers */,
-				A08190414883CB6FCA1B0A0EDE60902D /* SVProgressHUD.h in Headers */,
-				CE89C698FF9F6A665A28ED236BCF8718 /* SVRadialGradientLayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		454DD238966DFB1626E25FF9EF23F142 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72B079F9F6F3FA08255894FE5618C9D4 /* Pods-Hawaiian Weather-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A5F8C2E7C0CDFA6FE1368F97445F77C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				361203FCB5EB0F2BFA69E46CD512ED09 /* OpenWeatherMapKit-umbrella.h in Headers */,
+				C869B17A71ADEF72344FCC726A035E06 /* Pods-Hawaiian Weather-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +490,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CDD7A3D3164A41ABDD084E2170C48B6 /* Pods-Hawaiian WeatherTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0750F613584A33545046196824430 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C624B9BF2D63868E0E5EB07B32AE0D /* SVIndefiniteAnimatedView.h in Headers */,
+				C7F25CAFBECB855ACAB6CA39AB42C4B7 /* SVProgressAnimatedView.h in Headers */,
+				F63714A29A717178D1733A11A1C03ED8 /* SVProgressHUD-umbrella.h in Headers */,
+				30C6B39B54CFA73470A687CE0E245988 /* SVProgressHUD.h in Headers */,
+				233BBE5A8DACB7A76FD67690FFD1004D /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9900E5AB7E2923706DCFDA839FCBDA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE913BD499CBC26C32BE136D3B0123A /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,37 +531,37 @@
 			);
 			name = "Pods-Hawaiian WeatherUITests";
 			productName = "Pods-Hawaiian WeatherUITests";
-			productReference = F29F96983F3B08A082E3C443260FAEF5 /* Pods_Hawaiian_WeatherUITests.framework */;
+			productReference = 5E8C22B19BA0798AE240178655576977 /* Pods_Hawaiian_WeatherUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5219CF6BC2C9407B6B151F194893F78E /* Pods-Hawaiian Weather */ = {
+		4124C0A571DFC8DD395670E3340DFCA2 /* Pods-Hawaiian Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 466C2FDAAE9F6DA73040AE4367BA2259 /* Build configuration list for PBXNativeTarget "Pods-Hawaiian Weather" */;
+			buildConfigurationList = 53AEE4EDE7305B330FDE5B1A8F9C59E8 /* Build configuration list for PBXNativeTarget "Pods-Hawaiian Weather" */;
 			buildPhases = (
-				EEB90C776D0A24121E87F470AC65539E /* Sources */,
-				730CA9816A48EE75C4A9B40748DBDB17 /* Frameworks */,
-				454DD238966DFB1626E25FF9EF23F142 /* Headers */,
+				40C2EA524CC1FE37F480F49098F9EA7C /* Sources */,
+				1FE069AD5A6DBB368F5437EA8A2663FC /* Frameworks */,
+				58F702ECE29066548041AAB3ED00101F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A03A986AA03063A759FAB3EDEF74185E /* PBXTargetDependency */,
-				230B5ED745A11446DA4D6DA36B96C90F /* PBXTargetDependency */,
-				AA70DDD96FA2F9A4A1151E1A6AE9A446 /* PBXTargetDependency */,
+				19AD64BABCF731B53FB3641333B456FB /* PBXTargetDependency */,
+				FCC9537EEB86C61DB53AB5AF033A5B00 /* PBXTargetDependency */,
+				B836B812F613DEBB9CE7CD5E8D4F3AE4 /* PBXTargetDependency */,
 			);
 			name = "Pods-Hawaiian Weather";
 			productName = "Pods-Hawaiian Weather";
-			productReference = 6AEE8463FCF4BACC6489D5D9FEA74F36 /* Pods_Hawaiian_Weather.framework */;
+			productReference = D50618CCB1AF1591CFDFFB1405BC23B4 /* Pods_Hawaiian_Weather.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		77B1C69F76BBA37393876EED031B54C2 /* SVProgressHUD */ = {
+		44FE7E5891A4EE6E00E3882CBC85C96E /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8B30FEDA2768B9B22EE96D90A96C272 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 06876B66061E7243A2F959814B70AAA2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				A91FA4A692184AF275AF72EE447AAA84 /* Sources */,
-				3250D10A6CC349C8B5F13B0E9B405D4D /* Frameworks */,
-				2FBDCE180D4A4E271432472CB6D7E541 /* Headers */,
-				790BD3720DF106703FE962B982DCF1D3 /* Resources */,
+				47349FC8C8CBC74D5A64F343580658F4 /* Sources */,
+				51A473E0D9D02ECFAADFF864FAC0BD24 /* Frameworks */,
+				E3E0750F613584A33545046196824430 /* Headers */,
+				98D45447EEC8F1A187A34DCCE3206C67 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -572,24 +569,24 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 092AFC5077EC490BD531CA448E8F63E1 /* SVProgressHUD.framework */;
+			productReference = 9EF7221CB8E66EA16F9E0A40278ABE54 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CF82612225A9F6CC0402DF65A1E8F59E /* OpenWeatherMapKit */ = {
+		BFBC1047958FC8398E01576BCBA817A1 /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10146950186997E95F298E9E8B6A1C68 /* Build configuration list for PBXNativeTarget "OpenWeatherMapKit" */;
+			buildConfigurationList = D73CDD10404E39E624F0CC22FAF8D771 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				C71227F1005302EB792A29806FC7024C /* Sources */,
-				6FDC23666535851B83DA57C8BA503E23 /* Frameworks */,
-				9A5F8C2E7C0CDFA6FE1368F97445F77C /* Headers */,
+				B0C392FE39641FA899AEB9EF0250D4F0 /* Sources */,
+				63AF2BD892D6A8506B580BBB1E57FF63 /* Frameworks */,
+				F9900E5AB7E2923706DCFDA839FCBDA3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpenWeatherMapKit;
-			productName = OpenWeatherMapKit;
-			productReference = 1BDF5ABD58D7394A554A002052AC7E9C /* OpenWeatherMapKit.framework */;
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 4F4F2F1F0EA35531AC0DCF2285C87ACA /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DA096F33DE321A508E9E6693A0577B3B /* Pods-Hawaiian WeatherTests */ = {
@@ -607,7 +604,7 @@
 			);
 			name = "Pods-Hawaiian WeatherTests";
 			productName = "Pods-Hawaiian WeatherTests";
-			productReference = 23401539B79036D6303BA65BEA54CCBF /* Pods_Hawaiian_WeatherTests.framework */;
+			productReference = 0205499508435652E136826D96F1D3C1 /* Pods_Hawaiian_WeatherTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F688303865F0E1C993AE148CF337ED6B /* OpenWeatherKit */ = {
@@ -624,7 +621,7 @@
 			);
 			name = OpenWeatherKit;
 			productName = OpenWeatherKit;
-			productReference = DADA77000D2981AC60DE47291586674E /* OpenWeatherKit.framework */;
+			productReference = 7C48CCE3AC36654E12BEDA78B150CE8F /* OpenWeatherKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -644,32 +641,52 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 73B9CB6531B925068AB0DF3CF33C6C20 /* Products */;
+			productRefGroup = 5C59CF5868B1957C9BAEF34900A83756 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F688303865F0E1C993AE148CF337ED6B /* OpenWeatherKit */,
-				CF82612225A9F6CC0402DF65A1E8F59E /* OpenWeatherMapKit */,
-				5219CF6BC2C9407B6B151F194893F78E /* Pods-Hawaiian Weather */,
+				4124C0A571DFC8DD395670E3340DFCA2 /* Pods-Hawaiian Weather */,
 				DA096F33DE321A508E9E6693A0577B3B /* Pods-Hawaiian WeatherTests */,
 				2A756454F72CCAF7A0C506187FC15CA9 /* Pods-Hawaiian WeatherUITests */,
-				77B1C69F76BBA37393876EED031B54C2 /* SVProgressHUD */,
+				44FE7E5891A4EE6E00E3882CBC85C96E /* SVProgressHUD */,
+				BFBC1047958FC8398E01576BCBA817A1 /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		790BD3720DF106703FE962B982DCF1D3 /* Resources */ = {
+		98D45447EEC8F1A187A34DCCE3206C67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1181DE42CF64F92F9203F7D976F5DB7 /* SVProgressHUD.bundle in Resources */,
+				3E95082C478EDE9477AACDA8D19F69A7 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		40C2EA524CC1FE37F480F49098F9EA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDC6BE01252EAA2D66EB49CF29FED72 /* Pods-Hawaiian Weather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47349FC8C8CBC74D5A64F343580658F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98FDF4785545B2D9F0A28462330FF5D /* SVIndefiniteAnimatedView.m in Sources */,
+				DFC8000B87C431901988DDED7F603EE4 /* SVProgressAnimatedView.m in Sources */,
+				58145A940D9A32400FE2C04D8B36D1E0 /* SVProgressHUD-dummy.m in Sources */,
+				23CFFEA5BBB6C0BF675CA32500A50F9D /* SVProgressHUD.m in Sources */,
+				EC25AA3E0903E6D86BD49A18EB760201 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8098653D5130504DDE6766A0643C9641 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -678,34 +695,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A91FA4A692184AF275AF72EE447AAA84 /* Sources */ = {
+		B0C392FE39641FA899AEB9EF0250D4F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36BFD9880A00B80E97516E925D5163E /* SVIndefiniteAnimatedView.m in Sources */,
-				6BDE9D25C6889E300963881E7EED4F38 /* SVProgressAnimatedView.m in Sources */,
-				7D1FE28E5365FE498E7F9AEF5FCAC758 /* SVProgressHUD-dummy.m in Sources */,
-				391A233A65982A2C6A2D460B192AF95F /* SVProgressHUD.m in Sources */,
-				0270FCC656544BAEA1BA66CEE98B5D0F /* SVRadialGradientLayer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C71227F1005302EB792A29806FC7024C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78E56245620CFDBB902F822FC41B04CC /* Constants.swift in Sources */,
-				E6EB0D982821BAAF528E85411D0539CB /* ForecastItem.swift in Sources */,
-				FFB4B380827A2F76588FC1167861A025 /* ForecastItemsList.swift in Sources */,
-				02EAB8DA15C1161AD3D5A595E66ABFF8 /* Functions.swift in Sources */,
-				2E87CD352CB73E18095F009B3402FC55 /* NetworkManager.swift in Sources */,
-				4C70B35A5F5F337EC726565CF327208B /* OpenWeatherMapKit-dummy.m in Sources */,
-				33C9650A3794D4CED419856F9A5B4664 /* OpenWeatherMapKit.swift in Sources */,
-				62F0C921E2A5BC3AD48B0C677C9F0820 /* RequestBuilder.swift in Sources */,
-				10AC2126D094F69C6CADB24CEAA02FB9 /* WeatherDescriptor.swift in Sources */,
-				F00BBFDB34671C863D935BE9B5489F0B /* WeatherItem.swift in Sources */,
-				EAC51FA05B35B8806D7D2B7FED912CEB /* WeatherMode.swift in Sources */,
-				BC194B50F6DA99F34696B3CE9C4E0634 /* Wind.swift in Sources */,
+				AD7EB78F2770617E84F9794D794E2568 /* AkiraTextField.swift in Sources */,
+				4BFA10EC0A15170C9038477CD1FF5795 /* HoshiTextField.swift in Sources */,
+				0F7A9D7F3C0A233AD4BFBD3DE0DAE7E9 /* IsaoTextField.swift in Sources */,
+				EC6D44BC7CDCCE6E1767B3AAFDDABE02 /* JiroTextField.swift in Sources */,
+				B2FC11D6E4EBD82EDFF7FE4DD6DB7E2D /* KaedeTextField.swift in Sources */,
+				4526CD748D04EED801A851DA6ECC1988 /* MadokaTextField.swift in Sources */,
+				CD20BC4EAB0AC7DD681C713292750EFD /* MinoruTextField.swift in Sources */,
+				0F58C64645E5FE6BA19438D198CB6D8B /* TextFieldEffects-dummy.m in Sources */,
+				187A5EAE1820E5AB0A07649D4C718FDA /* TextFieldEffects.swift in Sources */,
+				BD19C050D84D071313B3F59CCB31F125 /* YokoTextField.swift in Sources */,
+				200DD0BBCD09A98A38B1DBC500449CCC /* YoshikoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,14 +731,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEB90C776D0A24121E87F470AC65539E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6CA59DF2070B4922A3BBADDC4721440F /* Pods-Hawaiian Weather-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F38222A79556129C34407DB9DA5605AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -746,42 +742,105 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		230B5ED745A11446DA4D6DA36B96C90F /* PBXTargetDependency */ = {
+		19AD64BABCF731B53FB3641333B456FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OpenWeatherMapKit;
-			target = CF82612225A9F6CC0402DF65A1E8F59E /* OpenWeatherMapKit */;
-			targetProxy = A4FDD9C266AC2FC4A642B5A5EE9D2058 /* PBXContainerItemProxy */;
+			name = OpenWeatherKit;
+			target = F688303865F0E1C993AE148CF337ED6B /* OpenWeatherKit */;
+			targetProxy = F889CD756B66F3FD97C9E924BFE09AFC /* PBXContainerItemProxy */;
 		};
 		84BDBE1779DD0E9EFCBC514F60D51761 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Hawaiian Weather";
-			target = 5219CF6BC2C9407B6B151F194893F78E /* Pods-Hawaiian Weather */;
+			target = 4124C0A571DFC8DD395670E3340DFCA2 /* Pods-Hawaiian Weather */;
 			targetProxy = AC2E5CC8275867907DEB942DFA616A96 /* PBXContainerItemProxy */;
 		};
-		A03A986AA03063A759FAB3EDEF74185E /* PBXTargetDependency */ = {
+		B836B812F613DEBB9CE7CD5E8D4F3AE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OpenWeatherKit;
-			target = F688303865F0E1C993AE148CF337ED6B /* OpenWeatherKit */;
-			targetProxy = CEC6E42F8D811E795C600A67DF796EB3 /* PBXContainerItemProxy */;
-		};
-		AA70DDD96FA2F9A4A1151E1A6AE9A446 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 77B1C69F76BBA37393876EED031B54C2 /* SVProgressHUD */;
-			targetProxy = 163E67BA4FEBAD899B1F3BBCB58F32B1 /* PBXContainerItemProxy */;
+			name = TextFieldEffects;
+			target = BFBC1047958FC8398E01576BCBA817A1 /* TextFieldEffects */;
+			targetProxy = 161F2AF3121DA5C8E7FCBD2B12150D36 /* PBXContainerItemProxy */;
 		};
 		D32E50033EBD6C1A6AC948E3A80A4EC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Hawaiian Weather";
-			target = 5219CF6BC2C9407B6B151F194893F78E /* Pods-Hawaiian Weather */;
+			target = 4124C0A571DFC8DD395670E3340DFCA2 /* Pods-Hawaiian Weather */;
 			targetProxy = 463146D828AF26F415065A5D98E7C8E5 /* PBXContainerItemProxy */;
+		};
+		FCC9537EEB86C61DB53AB5AF033A5B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 44FE7E5891A4EE6E00E3882CBC85C96E /* SVProgressHUD */;
+			targetProxy = 8218F8C925C3788EAF7AFC088C2EF638 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0252383D5328A0DAC91BABEFDE599720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D07CCACCE3D2DBA090724A1CFE56768 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1280D829AF5D97D4F76E550268FFB337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBB53E7C4FD3AF630A157B93550955C /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1359CF9F7A4F96D750EF72053A9EE3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD15780BD04C9F2D5842D8B5233657C3 /* OpenWeatherKit.xcconfig */;
+			baseConfigurationReference = B889D349DF5E465C862BA7E02C1A074B /* OpenWeatherKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -811,9 +870,9 @@
 			};
 			name = Debug;
 		};
-		2EB01BF0D23DA1A3B4F9FB78B24A2387 /* Debug */ = {
+		2B2275AA9D7E08AF7B205BBC26FC527D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6429D7836C76D93B11051EE398E22C3F /* Pods-Hawaiian Weather.debug.xcconfig */;
+			baseConfigurationReference = 6F3DDF4F551B8EC368A00C370EBB11FE /* Pods-Hawaiian Weather.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -839,39 +898,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		39DF1FEA42487166B333B48B152BED07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5E9B4ECB306E6969DE4A0D67AEF805E /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1069,9 +1096,9 @@
 			};
 			name = Release;
 		};
-		80A7BB1CBD97387848F5EFA3D6DC734A /* Release */ = {
+		7CF7A9C3A4DB0C9F6BA48FF69CD7F48E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 994DDD013F1122B90AA5D225882CB9B3 /* OpenWeatherMapKit.xcconfig */;
+			baseConfigurationReference = 8D07CCACCE3D2DBA090724A1CFE56768 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1082,14 +1109,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenWeatherMapKit/OpenWeatherMapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenWeatherMapKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenWeatherMapKit/OpenWeatherMapKit.modulemap";
-				PRODUCT_MODULE_NAME = OpenWeatherMapKit;
-				PRODUCT_NAME = OpenWeatherMapKit;
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1104,7 +1131,7 @@
 		};
 		8F824A6447632A2CEBDC2872B4A769C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD15780BD04C9F2D5842D8B5233657C3 /* OpenWeatherKit.xcconfig */;
+			baseConfigurationReference = B889D349DF5E465C862BA7E02C1A074B /* OpenWeatherKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1135,9 +1162,9 @@
 			};
 			name = Release;
 		};
-		9478DB4B3E9ACEC64807B50607719FB6 /* Debug */ = {
+		9D936E4088F0B0677394FAA69E7B3BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5E9B4ECB306E6969DE4A0D67AEF805E /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = BFBB53E7C4FD3AF630A157B93550955C /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1161,14 +1188,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CA7A23D0944C4529DF47823292D1D993 /* Release */ = {
+		CE2505E730640BEB23957C82BA4982C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F3DDF4F551B8EC368A00C370EBB11FE /* Pods-Hawaiian Weather.release.xcconfig */;
+			baseConfigurationReference = 6429D7836C76D93B11051EE398E22C3F /* Pods-Hawaiian Weather.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1194,13 +1222,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F2229CF5B65716D84E6BB1026FEA4DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1271,38 +1299,6 @@
 			};
 			name = Debug;
 		};
-		F8ED5B271A89DAC1192344C4DADEE90A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 994DDD013F1122B90AA5D225882CB9B3 /* OpenWeatherMapKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenWeatherMapKit/OpenWeatherMapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenWeatherMapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenWeatherMapKit/OpenWeatherMapKit.modulemap";
-				PRODUCT_MODULE_NAME = OpenWeatherMapKit;
-				PRODUCT_NAME = OpenWeatherMapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1315,11 +1311,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10146950186997E95F298E9E8B6A1C68 /* Build configuration list for PBXNativeTarget "OpenWeatherMapKit" */ = {
+		06876B66061E7243A2F959814B70AAA2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8ED5B271A89DAC1192344C4DADEE90A /* Debug */,
-				80A7BB1CBD97387848F5EFA3D6DC734A /* Release */,
+				1280D829AF5D97D4F76E550268FFB337 /* Debug */,
+				9D936E4088F0B0677394FAA69E7B3BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1329,15 +1325,6 @@
 			buildConfigurations = (
 				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
 				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		466C2FDAAE9F6DA73040AE4367BA2259 /* Build configuration list for PBXNativeTarget "Pods-Hawaiian Weather" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EB01BF0D23DA1A3B4F9FB78B24A2387 /* Debug */,
-				CA7A23D0944C4529DF47823292D1D993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1360,11 +1347,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8B30FEDA2768B9B22EE96D90A96C272 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		53AEE4EDE7305B330FDE5B1A8F9C59E8 /* Build configuration list for PBXNativeTarget "Pods-Hawaiian Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9478DB4B3E9ACEC64807B50607719FB6 /* Debug */,
-				39DF1FEA42487166B333B48B152BED07 /* Release */,
+				CE2505E730640BEB23957C82BA4982C8 /* Debug */,
+				2B2275AA9D7E08AF7B205BBC26FC527D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73CDD10404E39E624F0CC22FAF8D771 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0252383D5328A0DAC91BABEFDE599720 /* Debug */,
+				7CF7A9C3A4DB0C9F6BA48FF69CD7F48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
