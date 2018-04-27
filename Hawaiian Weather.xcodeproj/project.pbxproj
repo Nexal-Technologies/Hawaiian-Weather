@@ -23,11 +23,12 @@
 		A387A7102065B3D100751BA3 /* Hawaiian_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A70F2065B3D100751BA3 /* Hawaiian_WeatherUITests.swift */; };
 		A387A7222065C2AF00751BA3 /* NewStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7212065C2AF00751BA3 /* NewStation.swift */; };
 		A387A7242065C3C600751BA3 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7232065C3C600751BA3 /* Functions.swift */; };
-		A387A726206611DB00751BA3 /* GetWeatherOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A725206611DB00751BA3 /* GetWeatherOld.swift */; };
 		A387A728206887BA00751BA3 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A727206887BA00751BA3 /* Keys.swift */; };
 		A387A72A2068884F00751BA3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7292068884F00751BA3 /* Location.swift */; };
+		A3C201E9209257FE00D82200 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C201E8209257FE00D82200 /* Weather.swift */; };
 		A3D27D27206F8544006DFFF4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D27D26206F8544006DFFF4 /* Reachability.swift */; };
 		A3E91226207FD9B7004B2C59 /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E91225207FD9B7004B2C59 /* GetWeather.swift */; };
+		A3F485992092AEC600304B26 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F485982092AEC600304B26 /* Events.swift */; };
 		A3FB0704206B848A00935A41 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB0703206B848A00935A41 /* Global.swift */; };
 		F985DBE427D11D64B4E1E53A /* Pods_Hawaiian_WeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F55D1C89D58E85347D80432 /* Pods_Hawaiian_WeatherUITests.framework */; };
 /* End PBXBuildFile section */
@@ -77,11 +78,12 @@
 		A387A7112065B3D100751BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A387A7212065C2AF00751BA3 /* NewStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStation.swift; sourceTree = "<group>"; };
 		A387A7232065C3C600751BA3 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		A387A725206611DB00751BA3 /* GetWeatherOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherOld.swift; sourceTree = "<group>"; };
 		A387A727206887BA00751BA3 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		A387A7292068884F00751BA3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A3C201E8209257FE00D82200 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		A3D27D26206F8544006DFFF4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A3E91225207FD9B7004B2C59 /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
+		A3F485982092AEC600304B26 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		A3FB0703206B848A00935A41 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		A83F40DE50CDF697D3A0142A /* Pods_Hawaiian_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hawaiian_WeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC2FD2D9C554413927104C2 /* Pods-Hawaiian WeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hawaiian WeatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hawaiian WeatherUITests/Pods-Hawaiian WeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,7 +142,7 @@
 				A34C2A052087D26000D033A3 /* WeatherRequest.swift */,
 				A387A7212065C2AF00751BA3 /* NewStation.swift */,
 				A3E91225207FD9B7004B2C59 /* GetWeather.swift */,
-				A387A725206611DB00751BA3 /* GetWeatherOld.swift */,
+				A3C201E8209257FE00D82200 /* Weather.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -189,6 +191,7 @@
 				A387A6F62065B3D000751BA3 /* Assets.xcassets */,
 				A387A6F82065B3D000751BA3 /* LaunchScreen.storyboard */,
 				A387A6FB2065B3D100751BA3 /* Info.plist */,
+				A3F485982092AEC600304B26 /* Events.swift */,
 			);
 			path = "Hawaiian Weather";
 			sourceTree = "<group>";
@@ -468,14 +471,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3FB0704206B848A00935A41 /* Global.swift in Sources */,
-				A387A726206611DB00751BA3 /* GetWeatherOld.swift in Sources */,
 				A387A728206887BA00751BA3 /* Keys.swift in Sources */,
 				A387A72A2068884F00751BA3 /* Location.swift in Sources */,
 				A373299B207465170048ACCE /* Settings.swift in Sources */,
+				A3C201E9209257FE00D82200 /* Weather.swift in Sources */,
 				A3E91226207FD9B7004B2C59 /* GetWeather.swift in Sources */,
 				A387A6F22065B3D000751BA3 /* ViewController.swift in Sources */,
 				A3D27D27206F8544006DFFF4 /* Reachability.swift in Sources */,
 				A387A6F02065B3D000751BA3 /* AppDelegate.swift in Sources */,
+				A3F485992092AEC600304B26 /* Events.swift in Sources */,
 				A34C2A042087B6A700D033A3 /* CachingManager.swift in Sources */,
 				A34C2A092087EBFB00D033A3 /* WeatherManager.swift in Sources */,
 				A387A7222065C2AF00751BA3 /* NewStation.swift in Sources */,

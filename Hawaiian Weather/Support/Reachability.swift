@@ -16,6 +16,7 @@ public class Network {
     
     func checkConnection() -> Bool {
         
+        
         var zeroAddress = sockaddr_in(sin_len: 0, sin_family: 0, sin_port: 0, sin_addr: in_addr(s_addr: 0), sin_zero: (0, 0, 0, 0, 0, 0, 0, 0))
         zeroAddress.sin_len = UInt8(MemoryLayout.size(ofValue: zeroAddress))
         zeroAddress.sin_family = sa_family_t(AF_INET)
@@ -44,6 +45,7 @@ public class Network {
         let ret = (isReachable && !needsConnection)
         
         global.isConnectedToInternet = ret
+        
         return ret
     }
     
@@ -77,20 +79,25 @@ public class Network {
         let ret = (isReachable && !needsConnection)
         
         self.isConnectedToInternet = ret
-        if ret {
+        if ret == true {
             self.timer.invalidate()
             isConnectedAgain()
         }
+        
+        
         return ret
         
     }
     
     func noWifi() {
-        timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.innercheckConnection), userInfo: nil, repeats: true)
+        startLoadingScreen("Checking internet connection.")
+        
+        self.timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.innercheckConnection), userInfo: nil, repeats: true)
     }
     
     func isConnectedAgain() {
         //close alert window etc...
+        
     }
 }
 

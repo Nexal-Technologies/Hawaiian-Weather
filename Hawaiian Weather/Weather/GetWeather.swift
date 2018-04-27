@@ -8,7 +8,7 @@
 
 import Foundation
 //import OpenWeatherMapKit
-class station {
+class OldWeather {
     
     var success: Bool = false
     

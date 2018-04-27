@@ -10,8 +10,6 @@ import UIKit
 import CoreLocation
 import OpenWeatherKit
 
-
-
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
     let locationManager = CLLocationManager()
@@ -32,7 +30,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         //weather grab test
-        
+        let stationTest = Station(location: global.userLocation, true)
+        stationTest.updateCurrent()
+        print(stationTest.forecastWeather)
+        stationTest.updateForecast()
+        print(stationTest.currentWeather)
         
     }
     
@@ -97,4 +99,3 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
 }
-//git test

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeatherBlock : Decodable {
+struct WeatherBrick : Decodable {
     let temp_min: Float?
     let temp_max: Float?
     let wind_speed: Float?
