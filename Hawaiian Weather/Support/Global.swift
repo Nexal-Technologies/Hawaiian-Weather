@@ -25,7 +25,7 @@ struct Global {
     
     var inHawaii : Bool = false
     
-    var keyBlock = KeyBlock()
+    //var keyBlock = KeyBlock()
     
     let debug = true
     

@@ -12,7 +12,13 @@ import OpenWeatherKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
+    @IBOutlet public var WeatherText: UILabel!
+    
+    @IBOutlet weak var WeatherDescription: UILabel!
+    
     let locationManager = CLLocationManager()
+    
+    var stationTest = Station(location: global.userLocation, true)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,12 +36,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         //weather grab test
-        let stationTest = Station(location: global.userLocation, true)
-        stationTest.updateCurrent()
-        print(stationTest.forecastWeather)
-        stationTest.updateForecast()
-        print(stationTest.currentWeather)
         
+        //
+        
+    }
+    
+
+    func locationHasBeenUpdated() {
+        //stationTest.updateCurrent()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -50,7 +58,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         global.userLocation.longitude = locValue.longitude
         
         //Location uptdated call
-        locationHasBeenUpdated()
+
+        
+        //weather test UI
+
+        stationTest.updateCurrent()
+        WeatherText.text = stationTest.currentWeather?.weather[0].main
+        WeatherDescription.text = stationTest.currentWeather?.weather[0].description
+        print("-----------------------")
+        print("\(stationTest.currentWeather?.weather[0].main)")
+        print("-----------------------")
+        print("location updated")
         
         //stop loading screen after location data is populated
         stopLoadingScreen()

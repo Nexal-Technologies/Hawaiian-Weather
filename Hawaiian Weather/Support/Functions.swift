@@ -46,11 +46,7 @@ func doubleToString(_ input: Double) -> String {
     return String(format:"%f", input)
 }
 
-var stationTest = Station(location: global.userLocation, true)
-func locationHasBeenUpdated() {
-    stationTest.updateCurrent()
-    
-}
+
 
 func debug(_ output: String) {
     if global.debug == true {

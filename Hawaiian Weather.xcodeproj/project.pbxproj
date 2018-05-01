@@ -191,7 +191,6 @@
 				A387A6F62065B3D000751BA3 /* Assets.xcassets */,
 				A387A6F82065B3D000751BA3 /* LaunchScreen.storyboard */,
 				A387A6FB2065B3D100751BA3 /* Info.plist */,
-				A3F485982092AEC600304B26 /* Events.swift */,
 			);
 			path = "Hawaiian Weather";
 			sourceTree = "<group>";
@@ -225,6 +224,7 @@
 		A3D27D28206F8560006DFFF4 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				A3F485982092AEC600304B26 /* Events.swift */,
 				A3FB0703206B848A00935A41 /* Global.swift */,
 				A3D27D26206F8544006DFFF4 /* Reachability.swift */,
 				A387A727206887BA00751BA3 /* Keys.swift */,

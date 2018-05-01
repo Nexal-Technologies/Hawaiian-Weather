@@ -8,11 +8,9 @@
 
 import Foundation
 
-struct KeyBlock: Decodable {
-    var key1: String?
-    var key2: String?
-    var key3: String?
-}
+var keyDictionary = [
+    1 : "b6907d289e10d714a6e88b30761fae22"
+]
 
 class infoKey {
     
@@ -62,7 +60,7 @@ class infoKey {
             
             do {
                 
-                global.keyBlock = try JSONDecoder().decode(KeyBlock.self, from: data!)
+                //global.keyBlock = try JSONDecoder().decode(KeyBlock.self, from: data!)
                 
             } catch let jsonErr {
                 print("Error serializing json:", jsonErr)

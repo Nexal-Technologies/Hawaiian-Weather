@@ -8,6 +8,6 @@
 
 import Foundation
 
-func startCalender() {
+func startSchedule() {
     
 }
