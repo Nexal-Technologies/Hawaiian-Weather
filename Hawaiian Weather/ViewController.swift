@@ -9,6 +9,8 @@
 import UIKit
 import CoreLocation
 import OpenWeatherKit
+import SCLAlertView
+
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
@@ -33,6 +35,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }
+        //showWarning(title: "Station Limit!", subTitle: "You may not have more than 6 stations. Currently we cannot afford for each user to have 6 stations.😕 You can help us reach our goal of $2,500 by going to our site: nexal.net This will give us the funding we need to add features to the app and make users have more that 6 stations!")
+        _ = SCLAlertView().showWarning("kWarningTitle", subTitle: "kSubtitle")
         
         //weather grab test
         

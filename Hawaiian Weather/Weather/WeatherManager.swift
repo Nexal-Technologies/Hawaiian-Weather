@@ -34,6 +34,7 @@ class WeatherManager {
             stations.append(Station(location: location, false))
         } else {
             //throuw user notification cannot have more than 6 stations
+            showWarning(title: "Station Limit!", subTitle: "You may not have more than 6 stations. Currently we cannot afford for each user to have 6 stations.😕 You can help us reach our goal of $2,500 by going to our site: nexal.net This will give us the funding we need to add features to the app and make users have more that 6 stations!")
         }
     }
     

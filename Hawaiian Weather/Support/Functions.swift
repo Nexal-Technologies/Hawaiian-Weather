@@ -65,14 +65,14 @@ func locationHasBeenUpdated() {
 }
 
 func showWarning(title: String, subTitle: String) {
-    SCLAlertView().showWarning(title, subTitle: subTitle)
+    _ = SCLAlertView().showWarning(title, subTitle: subTitle)
 }
 
 func showInfo(title: String, subTitle: String) {
-    SCLAlertView().showInfo(title, subTitle: subTitle)
+    _ = SCLAlertView().showInfo(title, subTitle: subTitle)
 }
 
 func showError(title: String, subTitle: String) {
-    SCLAlertView().showError(title, subTitle: subTitle)
+    _ = SCLAlertView().showError(title, subTitle: subTitle)
 }
 
