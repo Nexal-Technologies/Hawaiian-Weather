@@ -18,7 +18,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
     
-    var stationTest = Station(location: global.userLocation, true)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,9 +41,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
 
-    func locationHasBeenUpdated() {
+    //func locationHasBeenUpdated() {
         //stationTest.updateCurrent()
-    }
+    //}
     
     override func viewDidAppear(_ animated: Bool) {
         //progress
@@ -61,14 +60,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
         
         //weather test UI
-
-        stationTest.updateCurrent()
-        WeatherText.text = stationTest.currentWeather?.weather[0].main
-        WeatherDescription.text = stationTest.currentWeather?.weather[0].description
-        print("-----------------------")
-        print("\(stationTest.currentWeather?.weather[0].main)")
-        print("-----------------------")
-        print("location updated")
+        locationHasBeenUpdated()
         
         //stop loading screen after location data is populated
         stopLoadingScreen()

@@ -10,6 +10,7 @@ target 'Hawaiian Weather' do
   #pod 'OpenWeatherMapKit' #not in use anymore
   pod 'OpenWeatherKit'
   pod 'TextFieldEffects'
+  pod 'SCLAlertView'
 
   target 'Hawaiian WeatherTests' do
     inherit! :search_paths

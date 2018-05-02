@@ -28,7 +28,7 @@ struct Global {
     //var keyBlock = KeyBlock()
     
     let debug = true
-    
+        
     init() {
         
         self.isFirstOpen = firstOpen()

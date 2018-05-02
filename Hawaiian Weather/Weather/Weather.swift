@@ -66,6 +66,8 @@ class Station {
         }
     }
     
+
+    
     func updateForecast() {
         
         //network check
@@ -96,5 +98,9 @@ class Station {
     
     func failedToGrabData() {
         
+    }
+    
+    func changeUI(uiObject: UILabel) {
+        uiObject.text = self.currentWeather?.weather[0].main
     }
 }

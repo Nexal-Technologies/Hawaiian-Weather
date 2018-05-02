@@ -9,6 +9,7 @@
 import Foundation
 import SVProgressHUD
 import OpenWeatherKit
+import SCLAlertView
 
 
 let defaults = UserDefaults.standard
@@ -53,3 +54,25 @@ func debug(_ output: String) {
         print(output)
     }
 }
+
+var stationTest = Station(location: global.userLocation, true)
+func locationHasBeenUpdated() {
+    stationTest.updateCurrent()
+    print("-----------------------")
+    print("\(stationTest.currentWeather?.weather[0].main)")
+    print("-----------------------")
+    print("location updated")
+}
+
+func showWarning(title: String, subTitle: String) {
+    SCLAlertView().showWarning(title, subTitle: subTitle)
+}
+
+func showInfo(title: String, subTitle: String) {
+    SCLAlertView().showInfo(title, subTitle: subTitle)
+}
+
+func showError(title: String, subTitle: String) {
+    SCLAlertView().showError(title, subTitle: subTitle)
+}
+
