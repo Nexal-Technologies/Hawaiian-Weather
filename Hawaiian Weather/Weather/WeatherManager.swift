@@ -22,14 +22,47 @@ class WeatherManager {
     
     var stations: [Station]
     
+    var currentStation: Station
+    
+    //for the station where the user is.
+    var currentCurrentWeatherUpdateTimer: Timer!
+    var currentForecastWeatherUpdateTimer: Timer!
+    
+    //all other stations besided the local station (where the user is)
+    var stationsCurrentWeatherUpdateTimer: Timer!
+    var stationsForecastWeatherUpdateTimer: Timer!
+    
     init() {
+        
+        //for the station where the user is.
+        currentCurrentWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 300.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) //every 5 mins
+        currentForecastWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 600.0, target: self, selector: #selector(updateCurrentStationForecast), userInfo: nil, repeats: true) //every 10 mins
+        
+        //all other stations besided the local station (where the user is)
+        stationsCurrentWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 900.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) // every 15 mins
+        stationsForecastWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 1200.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) // every 20 mins
+        
         stations = defaults.array(forKey: "stations") as! [Station] //pull saved data from defaults
         stations[0] = Station(location: global.userLocation, true)
+        
+        currentStation = stations[0]
+        
         for i in 0...stations.count {
             stations[i].updateCurrent()
             stations[i].updateForecast()
         } //update all stations
     }
+    
+    func updateStationCurrentWeather(station: Station) -> Station {
+        station.updateCurrent()
+        return station
+    }
+    
+    func updateStationForecastWeather(station: Station) -> Station {
+        station.updateForecast()
+        return station
+    }
+    
     
     func addStation(location: Location) {
         if !(stations.count >= 6) {
@@ -40,4 +73,16 @@ class WeatherManager {
         }
     }
     
+    
+    
+    
+    // Updates current and forecast data for current station.
+    @objc func updateCurrentStationCurrent() {
+            stations[0].updateCurrent()
+            currentStation = stations[0]
+    }
+    @objc func updateCurrentStationForecast() {
+            stations[0].updateCurrent()
+            currentStation = stations[0]
+    }
 }

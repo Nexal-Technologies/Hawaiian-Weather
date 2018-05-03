@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class Statistics {
+    
+    //func start
+}
