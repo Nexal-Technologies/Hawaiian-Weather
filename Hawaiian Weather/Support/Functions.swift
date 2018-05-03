@@ -61,9 +61,8 @@ func locationHasBeenUpdated() {
     
     var stationTest = WeatherManager()
     
-    
     print("-----------------------")
-    print("\(stationTest.currentWeather?.clouds)")
+    print("\(stationTest.stations[0].currentWeather?.clouds)")
     print("-----------------------")
     print("location updated")
 }

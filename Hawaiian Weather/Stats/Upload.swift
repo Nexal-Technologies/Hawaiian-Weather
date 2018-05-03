@@ -24,4 +24,6 @@ func sendUserData() {
     guard let url = components?.url else { return }
     var request = URLRequest(url: url)
     request.httpMethod = "POST"
+    
+    print("upload sucsessful!")
 }

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		00B4893AE5A03B846AD72672 /* Pods_Hawaiian_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AA2A0F3A6F81A4CC451AF4 /* Pods_Hawaiian_Weather.framework */; };
 		1550E1E7E8F3052DE78B159B /* Pods_Hawaiian_WeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F40DE50CDF697D3A0142A /* Pods_Hawaiian_WeatherTests.framework */; };
-		A34C2A042087B6A700D033A3 /* CachingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C2A032087B6A700D033A3 /* CachingManager.swift */; };
-		A34C2A062087D26000D033A3 /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C2A052087D26000D033A3 /* WeatherRequest.swift */; };
 		A34C2A092087EBFB00D033A3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C2A082087EBFB00D033A3 /* WeatherManager.swift */; };
 		A34C2A0C2088070700D033A3 /* https-::www.flaticon.com:packs:weather-53.webloc in Resources */ = {isa = PBXBuildFile; fileRef = A34C2A0B2088070700D033A3 /* https-::www.flaticon.com:packs:weather-53.webloc */; };
 		A373299B207465170048ACCE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373299A207465170048ACCE /* Settings.swift */; };
@@ -22,13 +20,11 @@
 		A387A6FA2065B3D000751BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A387A6F82065B3D000751BA3 /* LaunchScreen.storyboard */; };
 		A387A7052065B3D100751BA3 /* Hawaiian_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7042065B3D100751BA3 /* Hawaiian_WeatherTests.swift */; };
 		A387A7102065B3D100751BA3 /* Hawaiian_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A70F2065B3D100751BA3 /* Hawaiian_WeatherUITests.swift */; };
-		A387A7222065C2AF00751BA3 /* NewStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7212065C2AF00751BA3 /* NewStation.swift */; };
 		A387A7242065C3C600751BA3 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7232065C3C600751BA3 /* Functions.swift */; };
 		A387A728206887BA00751BA3 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A727206887BA00751BA3 /* Keys.swift */; };
 		A387A72A2068884F00751BA3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A7292068884F00751BA3 /* Location.swift */; };
 		A3C201E9209257FE00D82200 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C201E8209257FE00D82200 /* Weather.swift */; };
 		A3D27D27206F8544006DFFF4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D27D26206F8544006DFFF4 /* Reachability.swift */; };
-		A3E91226207FD9B7004B2C59 /* GetWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E91225207FD9B7004B2C59 /* GetWeather.swift */; };
 		A3F485992092AEC600304B26 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F485982092AEC600304B26 /* Events.swift */; };
 		A3FB0704206B848A00935A41 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB0703206B848A00935A41 /* Global.swift */; };
 		F985DBE427D11D64B4E1E53A /* Pods_Hawaiian_WeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F55D1C89D58E85347D80432 /* Pods_Hawaiian_WeatherUITests.framework */; };
@@ -59,8 +55,6 @@
 		4B33CCADDD493A5895062274 /* Pods-Hawaiian WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hawaiian WeatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hawaiian WeatherTests/Pods-Hawaiian WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F8F7B0815DDAC30AE4C7C6C /* Pods-Hawaiian WeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hawaiian WeatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hawaiian WeatherTests/Pods-Hawaiian WeatherTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A97CB54629441DA3EA2CF5A /* Pods-Hawaiian WeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hawaiian WeatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hawaiian WeatherUITests/Pods-Hawaiian WeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A34C2A032087B6A700D033A3 /* CachingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingManager.swift; sourceTree = "<group>"; };
-		A34C2A052087D26000D033A3 /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
 		A34C2A082087EBFB00D033A3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		A34C2A0B2088070700D033A3 /* https-::www.flaticon.com:packs:weather-53.webloc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "https-::www.flaticon.com:packs:weather-53.webloc"; sourceTree = "<group>"; };
 		A373299A207465170048ACCE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -78,13 +72,11 @@
 		A387A70B2065B3D100751BA3 /* Hawaiian WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hawaiian WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A387A70F2065B3D100751BA3 /* Hawaiian_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hawaiian_WeatherUITests.swift; sourceTree = "<group>"; };
 		A387A7112065B3D100751BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A387A7212065C2AF00751BA3 /* NewStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStation.swift; sourceTree = "<group>"; };
 		A387A7232065C3C600751BA3 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		A387A727206887BA00751BA3 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		A387A7292068884F00751BA3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		A3C201E8209257FE00D82200 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		A3D27D26206F8544006DFFF4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		A3E91225207FD9B7004B2C59 /* GetWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeather.swift; sourceTree = "<group>"; };
 		A3F485982092AEC600304B26 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		A3FB0703206B848A00935A41 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		A83F40DE50CDF697D3A0142A /* Pods_Hawaiian_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hawaiian_WeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,21 +121,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A34C2A002087B53500D033A3 /* Caching */ = {
-			isa = PBXGroup;
-			children = (
-				A34C2A032087B6A700D033A3 /* CachingManager.swift */,
-			);
-			path = Caching;
-			sourceTree = "<group>";
-		};
 		A34C2A072087D26700D033A3 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
 				A34C2A082087EBFB00D033A3 /* WeatherManager.swift */,
-				A34C2A052087D26000D033A3 /* WeatherRequest.swift */,
-				A387A7212065C2AF00751BA3 /* NewStation.swift */,
-				A3E91225207FD9B7004B2C59 /* GetWeather.swift */,
 				A3C201E8209257FE00D82200 /* Weather.swift */,
 			);
 			path = Weather;
@@ -193,7 +174,6 @@
 				A37BE541209A8339006915C7 /* Stats */,
 				A34C2A0A208806EF00D033A3 /* Refference Links */,
 				A34C2A072087D26700D033A3 /* Weather */,
-				A34C2A002087B53500D033A3 /* Caching */,
 				A3D27D28206F8560006DFFF4 /* Support */,
 				A387A7202065C25B00751BA3 /* Location */,
 				A387A6EF2065B3D000751BA3 /* AppDelegate.swift */,
@@ -488,16 +468,12 @@
 				A387A72A2068884F00751BA3 /* Location.swift in Sources */,
 				A373299B207465170048ACCE /* Settings.swift in Sources */,
 				A3C201E9209257FE00D82200 /* Weather.swift in Sources */,
-				A3E91226207FD9B7004B2C59 /* GetWeather.swift in Sources */,
 				A387A6F22065B3D000751BA3 /* ViewController.swift in Sources */,
 				A3D27D27206F8544006DFFF4 /* Reachability.swift in Sources */,
 				A387A6F02065B3D000751BA3 /* AppDelegate.swift in Sources */,
 				A3F485992092AEC600304B26 /* Events.swift in Sources */,
-				A34C2A042087B6A700D033A3 /* CachingManager.swift in Sources */,
 				A34C2A092087EBFB00D033A3 /* WeatherManager.swift in Sources */,
 				A37BE543209A8349006915C7 /* Upload.swift in Sources */,
-				A387A7222065C2AF00751BA3 /* NewStation.swift in Sources */,
-				A34C2A062087D26000D033A3 /* WeatherRequest.swift in Sources */,
 				A387A7242065C3C600751BA3 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@ struct StationID {
 
 class WeatherManager {
     
-    var stations: [Station]
+    var stations: [Station] = []
     
     var currentStation: Station
     
@@ -35,12 +35,17 @@ class WeatherManager {
     init() {
 
         
-        stations = defaults.array(forKey: "stations") as! [Station] //pull saved data from defaults
+        if defaults.array(forKey: "stations") != nil {
+            stations = defaults.array(forKey: "stations") as! [Station] //pull saved data from defaults
+        } else {
+            stations.append(Station(location: global.userLocation, true))
+        }
+        
         stations[0] = Station(location: global.userLocation, true)
         
         currentStation = stations[0]
         
-        for i in 0...stations.count {
+        for i in 0...(stations.count - 1) { //minus one because count automaticaly returns the ammount, not ht eindex number...
             stations[i].updateCurrent()
             stations[i].updateForecast()
         } //update all stations
@@ -79,10 +84,12 @@ class WeatherManager {
     
     // Updates current and forecast data for current station.
     @objc func updateCurrentStationCurrent() {
-            stations[0].updateCurrent()
+            stations[0] = Station(location: global.userLocation, true) //gives new location
+            stations[0].updateCurrent() //updates weather
             currentStation = stations[0]
     }
     @objc func updateCurrentStationForecast() {
+            stations[0] = Station(location: global.userLocation, true)
             stations[0].updateCurrent()
             currentStation = stations[0]
     }
