@@ -26,6 +26,7 @@ class Events {
         
     }
     @objc func fifteenMinuteCall() {
+        sendUserData()
         
     }
 }

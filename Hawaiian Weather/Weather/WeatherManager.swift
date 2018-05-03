@@ -33,14 +33,7 @@ class WeatherManager {
     var stationsForecastWeatherUpdateTimer: Timer!
     
     init() {
-        
-        //for the station where the user is.
-        currentCurrentWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 300.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) //every 5 mins
-        currentForecastWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 600.0, target: self, selector: #selector(updateCurrentStationForecast), userInfo: nil, repeats: true) //every 10 mins
-        
-        //all other stations besided the local station (where the user is)
-        stationsCurrentWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 900.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) // every 15 mins
-        stationsForecastWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 1200.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) // every 20 mins
+
         
         stations = defaults.array(forKey: "stations") as! [Station] //pull saved data from defaults
         stations[0] = Station(location: global.userLocation, true)
@@ -51,6 +44,14 @@ class WeatherManager {
             stations[i].updateCurrent()
             stations[i].updateForecast()
         } //update all stations
+        
+        //for the station where the user is.
+        currentCurrentWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 300.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) //every 5 mins
+        currentForecastWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 600.0, target: self, selector: #selector(updateCurrentStationForecast), userInfo: nil, repeats: true) //every 10 mins
+        
+        //all other stations besided the local station (where the user is)
+        stationsCurrentWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 900.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) // every 15 mins
+        stationsForecastWeatherUpdateTimer = Timer.scheduledTimer(timeInterval: 1200.0, target: self, selector: #selector(updateCurrentStationCurrent), userInfo: nil, repeats: true) // every 20 mins
     }
     
     func updateStationCurrentWeather(station: Station) -> Station {

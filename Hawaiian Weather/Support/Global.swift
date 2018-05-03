@@ -12,6 +12,8 @@ struct Global {
     
     var isConnectedToInternet : Bool = false
     
+    var workingKey : String = "9336dd32923469d935a7cc74234c1f5a"
+    
     var isFirstOpen : Bool = true
     
     var locationAvalible : Bool = false
@@ -25,8 +27,8 @@ struct Global {
     
     //var keyBlock = KeyBlock()
     
-    let debug = true
-        
+    var debug = true
+    
     init() {
         
         self.isFirstOpen = firstOpen()

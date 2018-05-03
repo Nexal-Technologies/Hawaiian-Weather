@@ -59,12 +59,11 @@ func debug(_ output: String) {
 //called every time location is updated
 func locationHasBeenUpdated() {
     
-    var stationTest = Station(location: global.userLocation, true)
+    var stationTest = WeatherManager()
     
-    stationTest.updateCurrent()
     
     print("-----------------------")
-    print("\(stationTest.currentWeather?.weather[0].main)")
+    print("\(stationTest.currentWeather?.clouds)")
     print("-----------------------")
     print("location updated")
 }

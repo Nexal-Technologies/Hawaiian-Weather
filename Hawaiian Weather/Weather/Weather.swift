@@ -45,6 +45,7 @@ class Station {
         if !Network().checkConnection() {
             //no connection :(
             Network().noWifi()
+            print("unable to grab data because no wifi.")
             return
         }
         
