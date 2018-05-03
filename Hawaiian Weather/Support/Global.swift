@@ -12,8 +12,6 @@ struct Global {
     
     var isConnectedToInternet : Bool = false
     
-    var workingKey : String = "9336dd32923469d935a7cc74234c1f5a"
-    
     var isFirstOpen : Bool = true
     
     var locationAvalible : Bool = false
@@ -44,3 +42,4 @@ struct Location {
 
 //initialize with functions or class
 var global = Global()
+var weatherManager = WeatherManager()

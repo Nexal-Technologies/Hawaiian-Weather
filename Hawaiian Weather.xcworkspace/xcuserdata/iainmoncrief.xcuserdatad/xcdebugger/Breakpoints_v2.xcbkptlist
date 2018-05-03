@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/Support/Reachability.swift"
-            timestampString = "546484400.756813"
+            timestampString = "547010209.415024"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/Support/Reachability.swift"
-            timestampString = "546484400.756887"
+            timestampString = "547010209.415552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "94"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/Support/Reachability.swift"
-            timestampString = "546484400.756942"
+            timestampString = "547010209.415709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/Support/Reachability.swift"
-            timestampString = "546484400.756994"
+            timestampString = "547010209.415827"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/Weather/Weather.swift"
-            timestampString = "546901487.168305"
+            timestampString = "547010451.399345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/Weather/Weather.swift"
-            timestampString = "546901487.168457"
+            timestampString = "547010451.399753"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
@@ -106,12 +106,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hawaiian Weather/ViewController.swift"
-            timestampString = "546938103.218913"
+            timestampString = "547010451.399931"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hawaiian Weather/Weather/Weather.swift"
+            timestampString = "547010451.400635"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "updateCurrent()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hawaiian_Weather.Station.updateCurrent() -&gt; ()"
+                  moduleName = "Hawaiian Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iainmoncrief/Library/Mobile%20Documents/com~apple~CloudDocs/Programming/Xcode%20HOT/iOS/Hawaiian-Weather/Hawaiian%20Weather/Weather/Weather.swift"
+                  timestampString = "547008346.299301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (OpenWeatherKit.Result&lt;OpenWeatherKit.Weather&gt;) -&gt; () in Hawaiian_Weather.Station.updateCurrent() -&gt; ()"
+                  moduleName = "Hawaiian Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iainmoncrief/Library/Mobile%20Documents/com~apple~CloudDocs/Programming/Xcode%20HOT/iOS/Hawaiian-Weather/Hawaiian%20Weather/Weather/Weather.swift"
+                  timestampString = "547008346.3023911"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hawaiian Weather/Weather/Weather.swift"
+            timestampString = "547010451.400782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "updateCurrent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hawaiian Weather/Weather/Weather.swift"
+            timestampString = "547010451.400843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "updateCurrent()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

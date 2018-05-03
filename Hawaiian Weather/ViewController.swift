@@ -35,13 +35,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }
-        //showWarning(title: "Station Limit!", subTitle: "You may not have more than 6 stations. Currently we cannot afford for each user to have 6 stations.😕 You can help us reach our goal of $2,500 by going to our site: nexal.net This will give us the funding we need to add features to the app and make users have more that 6 stations!")
-        _ = SCLAlertView().showWarning("kWarningTitle", subTitle: "kSubtitle")
-        
         //weather grab test
-        
-        //
-        
+
     }
     
 
@@ -51,7 +46,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         //progress
+        //showInputView()
+        //showWarning(title: "Station Limit!", subTitle: "You may not have more than 6 stations. Currently we cannot afford for each user to have 6 stations.😕 You can help us reach our goal of $2,500 by going to our site: nexal.net This will give us the funding we need to add features to the app and make users have more that 6 stations!")
         startLoadingScreen("")
+        
+        //things to run when the application is opened for the first time!
+        //if firstOpen() {
+           // runAtFirstOpen()
+        //}
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -61,10 +63,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         global.userLocation.longitude = locValue.longitude
         
         //Location uptdated call
-
         
         //weather test UI
-        locationHasBeenUpdated()
+
         
         //stop loading screen after location data is populated
         stopLoadingScreen()
@@ -74,6 +75,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         if global.userLocation.latitude != 0.0 && global.userLocation.longitude != 0.0 {
             
             global.locationAvalible = true
+            locationHasBeenUpdated()
             
             //print("locations = \(locValue.latitude) \(locValue.longitude)")
         } else {

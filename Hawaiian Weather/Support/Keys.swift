@@ -28,7 +28,6 @@ class infoKey {
             } else {
                 //key does not work...
                 updateKeys()
-                
             }
             
         } else {

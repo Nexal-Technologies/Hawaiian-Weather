@@ -99,8 +99,4 @@ class Station {
     func failedToGrabData() {
         
     }
-    
-    func changeUI(uiObject: UILabel) {
-        uiObject.text = self.currentWeather?.weather[0].main
-    }
 }

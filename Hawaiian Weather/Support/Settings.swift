@@ -10,18 +10,19 @@ import Foundation
 
 struct Settings {
     
+    var userSettings: UserSettings = UserSettings()
+    
     var speakPidgin : Bool = false
     
     var giveNotifications : Bool = true
     
     init() {
-        if !firstOpen() {
+        if !firstOpen() && !(defaults.object(forKey: "Settings") == nil) {
             
-            //if defaults.object(forKey: "Settings") == nil {
-                
-            //}
             self = defaults.object(forKey: "Settings") as! Settings
             
+        } else {
+            self.save()
         }
         
         //self.isFirstOpen = firstOpen()
@@ -35,6 +36,13 @@ struct Settings {
         //defaults.set(giveNotifications, forKey: "giveNotifications")
     }
     
+}
+
+struct UserSettings {
+    var firstname: Any = "nil"
+    var lastName: Any = "nil"
+    var email: Any?
+    var phone: Any?
 }
 
 //initialize with functions or class

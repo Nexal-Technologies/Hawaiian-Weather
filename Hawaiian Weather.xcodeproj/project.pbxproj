@@ -14,6 +14,8 @@
 		A34C2A092087EBFB00D033A3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C2A082087EBFB00D033A3 /* WeatherManager.swift */; };
 		A34C2A0C2088070700D033A3 /* https-::www.flaticon.com:packs:weather-53.webloc in Resources */ = {isa = PBXBuildFile; fileRef = A34C2A0B2088070700D033A3 /* https-::www.flaticon.com:packs:weather-53.webloc */; };
 		A373299B207465170048ACCE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373299A207465170048ACCE /* Settings.swift */; };
+		A37BE543209A8349006915C7 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37BE542209A8349006915C7 /* Upload.swift */; };
+		A37BE545209A8356006915C7 /* StatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37BE544209A8356006915C7 /* StatManager.swift */; };
 		A387A6F02065B3D000751BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A6EF2065B3D000751BA3 /* AppDelegate.swift */; };
 		A387A6F22065B3D000751BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387A6F12065B3D000751BA3 /* ViewController.swift */; };
 		A387A6F52065B3D000751BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A387A6F32065B3D000751BA3 /* Main.storyboard */; };
@@ -63,6 +65,8 @@
 		A34C2A082087EBFB00D033A3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		A34C2A0B2088070700D033A3 /* https-::www.flaticon.com:packs:weather-53.webloc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "https-::www.flaticon.com:packs:weather-53.webloc"; sourceTree = "<group>"; };
 		A373299A207465170048ACCE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A37BE542209A8349006915C7 /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		A37BE544209A8356006915C7 /* StatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatManager.swift; sourceTree = "<group>"; };
 		A387A6EC2065B3D000751BA3 /* Hawaiian Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hawaiian Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A387A6EF2065B3D000751BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A387A6F12065B3D000751BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +159,15 @@
 			path = "Refference Links";
 			sourceTree = "<group>";
 		};
+		A37BE541209A8339006915C7 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				A37BE542209A8349006915C7 /* Upload.swift */,
+				A37BE544209A8356006915C7 /* StatManager.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
 		A387A6E32065B3D000751BA3 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +193,7 @@
 		A387A6EE2065B3D000751BA3 /* Hawaiian Weather */ = {
 			isa = PBXGroup;
 			children = (
+				A37BE541209A8339006915C7 /* Stats */,
 				A34C2A0A208806EF00D033A3 /* Refference Links */,
 				A34C2A072087D26700D033A3 /* Weather */,
 				A34C2A002087B53500D033A3 /* Caching */,
@@ -483,7 +497,9 @@
 				A387A6F02065B3D000751BA3 /* AppDelegate.swift in Sources */,
 				A3F485992092AEC600304B26 /* Events.swift in Sources */,
 				A34C2A042087B6A700D033A3 /* CachingManager.swift in Sources */,
+				A37BE545209A8356006915C7 /* StatManager.swift in Sources */,
 				A34C2A092087EBFB00D033A3 /* WeatherManager.swift in Sources */,
+				A37BE543209A8349006915C7 /* Upload.swift in Sources */,
 				A387A7222065C2AF00751BA3 /* NewStation.swift in Sources */,
 				A34C2A062087D26000D033A3 /* WeatherRequest.swift in Sources */,
 				A387A7242065C3C600751BA3 /* Functions.swift in Sources */,

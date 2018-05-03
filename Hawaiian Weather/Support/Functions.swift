@@ -42,7 +42,7 @@ func startLoadingScreen(_ message: String?) {
 func stopLoadingScreen() {
     SVProgressHUD.dismiss()
 }
-
+//in the name
 func doubleToString(_ input: Double) -> String {
     return String(format:"%f", input)
 }
@@ -55,15 +55,21 @@ func debug(_ output: String) {
     }
 }
 
-var stationTest = Station(location: global.userLocation, true)
+
+//called every time location is updated
 func locationHasBeenUpdated() {
+    
+    var stationTest = Station(location: global.userLocation, true)
+    
     stationTest.updateCurrent()
+    
     print("-----------------------")
     print("\(stationTest.currentWeather?.weather[0].main)")
     print("-----------------------")
     print("location updated")
 }
 
+//User interface notiification functions.
 func showWarning(title: String, subTitle: String) {
     _ = SCLAlertView().showWarning(title, subTitle: subTitle)
 }
@@ -74,5 +80,60 @@ func showInfo(title: String, subTitle: String) {
 
 func showError(title: String, subTitle: String) {
     _ = SCLAlertView().showError(title, subTitle: subTitle)
+}
+
+func showInputView() -> (fname: String, lname: String) {
+    // Create custom Appearance Configuration
+    let appearance = SCLAlertView.SCLAppearance(
+        showCloseButton: false,
+        dynamicAnimatorActive: true
+    )
+    
+    // Initialize SCLAlertView using custom Appearance
+    let alert = SCLAlertView(appearance: appearance)
+    
+    // Creat the subview
+    let subview = UIView(frame: CGRect(x: 0,y: 0,width: 216,height: 70))
+    let x = (subview.frame.width - 180) / 2
+    
+    // Add textfield 1
+    let textfield1 = UITextField(frame: CGRect(x: x,y: 10,width: 180,height: 25))
+    textfield1.layer.borderColor = UIColor.green.cgColor
+    //textfield1.layer.borderWidth = 1.5
+    //textfield1.layer.cornerRadius = 5
+    textfield1.placeholder = "First Name"
+    textfield1.textAlignment = NSTextAlignment.center
+    subview.addSubview(textfield1)
+    
+    // Add textfield 2
+    let textfield2 = UITextField(frame: CGRect(x: x,y: textfield1.frame.maxY + 10,width: 180,height: 25))
+    //textfield2.isSecureTextEntry = true
+    //textfield2.layer.borderColor = UIColor.blue.cgColor
+    //textfield2.layer.borderWidth = 1.5
+    textfield2.layer.cornerRadius = 5
+    textfield1.layer.borderColor = UIColor.blue.cgColor
+    textfield2.placeholder = "Last Name"
+    textfield2.textAlignment = NSTextAlignment.center
+    subview.addSubview(textfield2)
+    
+    
+    // Add the subview to the alert's UI property
+    alert.customSubview = subview
+    _ = alert.addButton("Login") {
+        print("Logged in")
+    }
+    
+    _ = alert.showInfo("Login", subTitle: "")
+    return (textfield1.text!, textfield2.text!)
+    
+    //print("\(textfield1.text)**************************************************************************************")
+}
+
+//things to run when the application is opened for the first time!
+func runAtFirstOpen() {
+    
+    showInputView()
+    
+    
 }
 
