@@ -20,6 +20,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
     
+    var stationTest = WeatherManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -114,4 +115,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func Populateweatherdata(_ sender: UIButton) {
+        stationTest.updateCurrentStationCurrent()
+    }
+    
+    @IBAction func PrintWeatherData(_ sender: UIButton) {
+        print("-----------------------")
+        print("\(stationTest.stations[0].currentWeather?.clouds)")
+        print("-----------------------")
+    }
+    
+    
 }
