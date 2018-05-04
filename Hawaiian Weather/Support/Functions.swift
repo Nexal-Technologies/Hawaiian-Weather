@@ -55,11 +55,11 @@ func debug(_ output: String) {
     }
 }
 
-
+var stationTest = WeatherManager()
 //called every time location is updated
 func locationHasBeenUpdated() {
     
-    var stationTest = WeatherManager()
+    stationTest.updateCurrentStationCurrent()
     
     print("-----------------------")
     print("\(stationTest.stations[0].currentWeather?.clouds)")

@@ -80,8 +80,6 @@ class WeatherManager {
     }
     
     
-    
-    
     // Updates current and forecast data for current station.
     @objc func updateCurrentStationCurrent() {
             stations[0] = Station(location: global.userLocation, true) //gives new location
