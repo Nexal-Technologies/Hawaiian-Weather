@@ -126,5 +126,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         print("-----------------------")
     }
     
-    
+    func updateUI() {
+        for i in 0...(weatherManager.stations.count - 1) {
+            if weatherManager.stations[i].currentWeather?.weather[0].main == nil {
+                //failed to update
+                showError(title: "Couldn't update weather data!", subTitle: "Please check your connection. The weather is updated automaticaly.")
+                return
+            }
+        }
+    }
 }

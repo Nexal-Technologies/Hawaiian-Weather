@@ -78,14 +78,12 @@ class Station {
             return
         }
         
-        self.weatherApi.getForecastFor(lat: "\(doubleToString(self.location.latitude))", lon: "\(doubleToString(self.location.longitude))") { result in
+        weatherApi.getForecastFor(lat: "\(doubleToString(self.location.latitude))", lon: "\(doubleToString(self.location.longitude))") { result in
             switch result {
             case .success(let weather):
                 
                 self.forecastWeather = weather
-                
                 print(weather)
-                
                 
             case .error(_):
                 

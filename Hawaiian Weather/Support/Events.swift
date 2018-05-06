@@ -15,8 +15,14 @@ class Events {
     
     func startSchedule() {
         fiveMinute = Timer.scheduledTimer(timeInterval: 300.0, target: self, selector: #selector(fiveMinuteCall), userInfo: nil, repeats: true) //every 5 mins
-        tenMinute = Timer.scheduledTimer(timeInterval: 300.0, target: self, selector: #selector(tenMinuteCall), userInfo: nil, repeats: true) //every 10 mins
-        fifteenMinute = Timer.scheduledTimer(timeInterval: 300.0, target: self, selector: #selector(fifteenMinuteCall), userInfo: nil, repeats: true) //every 15 mins
+        tenMinute = Timer.scheduledTimer(timeInterval: 600.0, target: self, selector: #selector(tenMinuteCall), userInfo: nil, repeats: true) //every 10 mins
+        fifteenMinute = Timer.scheduledTimer(timeInterval: 900.0, target: self, selector: #selector(fifteenMinuteCall), userInfo: nil, repeats: true) //every 15 mins
+    }
+    
+    func stopSchedule() {
+        fiveMinute.invalidate()
+        tenMinute.invalidate()
+        fifteenMinute.invalidate()
     }
     
     @objc func fiveMinuteCall() {
@@ -27,6 +33,5 @@ class Events {
     }
     @objc func fifteenMinuteCall() {
         sendUserData()
-        
     }
 }
