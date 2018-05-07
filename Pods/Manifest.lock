@@ -1,12 +1,14 @@
 PODS:
   - OpenWeatherKit (2.0)
   - SCLAlertView (0.8)
+  - SkeletonView (1.1.1)
   - SVProgressHUD (2.2.5)
   - TextFieldEffects (1.4.0)
 
 DEPENDENCIES:
   - OpenWeatherKit
   - SCLAlertView (~> 0.8)
+  - SkeletonView
   - SVProgressHUD
   - TextFieldEffects
 
@@ -14,15 +16,17 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - OpenWeatherKit
     - SCLAlertView
+    - SkeletonView
     - SVProgressHUD
     - TextFieldEffects
 
 SPEC CHECKSUMS:
   OpenWeatherKit: d58c66d7fcaa7eab932e17863b641f4b159a9d61
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SkeletonView: 041053e904504e7d8db83df166e599be75659fe1
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
 
-PODFILE CHECKSUM: 842e9d4cc0a9b9f0ffeb15f6279903664d898634
+PODFILE CHECKSUM: dff5ab193ef2d76f6765cab86fe34824a0f76237
 
 COCOAPODS: 1.5.0

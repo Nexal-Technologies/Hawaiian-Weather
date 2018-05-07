@@ -10,6 +10,8 @@ import UIKit
 import CoreLocation
 import OpenWeatherKit
 import SCLAlertView
+import SkeletonView
+
 
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
@@ -20,7 +22,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
     
-    var stationTest = WeatherManager()
+    var weatherManager = WeatherManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +39,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
         }
         //weather grab test
-
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0, execute: {
+            //self.weatherManager = WeatherManager()
+            self.weatherManager.updateCurrentStationCurrent()
+        })
+        
     }
     
 
@@ -48,13 +54,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidAppear(_ animated: Bool) {
         //progress
         //showInputView()
-        showWarning(title: "Station Limit!", subTitle: "You may not have more than 6 stations. Currently we cannot afford for each user to have 6 stations.😕 You can help us reach our goal of $2,500 by going to our site: nexal.net This will give us the funding we need to add features to the app and make users have more that 6 stations!")
         startLoadingScreen("")
+        
+
         
         //things to run when the application is opened for the first time!
         //if firstOpen() {
            // runAtFirstOpen()
         //}
+        
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -117,22 +125,33 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     @IBAction func Populateweatherdata(_ sender: UIButton) {
-        stationTest.updateCurrentStationCurrent()
+        weatherManager.updateCurrentStationCurrent()
     }
     
     @IBAction func PrintWeatherData(_ sender: UIButton) {
         print("-----------------------")
-        print("\(stationTest.stations[0].currentWeather?.clouds)")
+        print("\(weatherManager.stations[0].currentWeather?.clouds)")
         print("-----------------------")
     }
     
     func updateUI() {
-        for i in 0...(weatherManager.stations.count - 1) {
-            if weatherManager.stations[i].currentWeather?.weather[0].main == nil {
-                //failed to update
-                showError(title: "Couldn't update weather data!", subTitle: "Please check your connection. The weather is updated automaticaly.")
-                return
-            }
-        }
+        print(weatherManager.stations.count)
+//        for i in 0...(weatherManager.stations.count - 1) { //checks if any stations are not set
+//            if weatherManager.stations[i].currentWeather?.weather[0].main == nil {
+//                //failed to update
+//                stopLoadingScreen()
+//                showError(title: "Couldn't update weather data!", subTitle: "Please check your connection. The weather is updated automaticaly.")
+//                return
+//            }
+//            if i == 0 { // beaks the loop or else it will keep going if there are 0
+//                break
+//            }
+//        }
+        //showInfo(title: "Sucess", subTitle: "Sucess grabing data!")
+        // updating the UI
+        print("instead of the notification SUCSESS")
+        
+        
+        stopLoadingScreen()
     }
 }

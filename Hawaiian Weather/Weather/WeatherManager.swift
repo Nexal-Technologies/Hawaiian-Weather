@@ -74,8 +74,9 @@ class WeatherManager {
         } //update all stations
     }
     
-    func updateStationForecastWeather(station: Int) {
+    func updateStationForecastWeather() {
         for i in 1...(stations.count - 1) { //minus one because count automaticaly returns the ammount, not ht eindex number...
+            print("updateStationForecastWeather()")
             stations[i].updateForecast()
         } //update all stations
     }
@@ -98,18 +99,29 @@ class WeatherManager {
     @objc func updateCurrentStationCurrent() {
             stations[0] = Station(location: global.userLocation, true) //gives new location
             stations[0].updateCurrent() //updates weather
+            print("updateCurrentStationCurrent()")
+            updateVC()
             //currentStation = stations[0]
         
     }
+    
     @objc func updateCurrentStationForecast() {
             stations[0] = Station(location: global.userLocation, true)
             stations[0].updateCurrent()
+            print("updateCurrentStationForecast()")
+            updateVC()
             //currentStation = stations[0]
     }
     
     func updateVC() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0, execute: {
+        startLoadingScreen("Updating Weather")
+        print("4 sec start")
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 4.0, execute: {
+//            ViewController().updateUI()
+//        })
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) { // change 2 to desired number of seconds
+            print("4 sec end")
             ViewController().updateUI()
-        })
+        }
     }
 }

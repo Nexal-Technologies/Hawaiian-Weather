@@ -55,12 +55,12 @@ class Station {
                 
                 self.currentWeather = weather
                 
-                print(weather)
+                print("Sucsess grabbing the current weather!")
                 
                 
             case .error(_):
                 
-                debug("Failed to grab weather data!")
+                debug("Failed to grab current weather data!")
                 self.failedToGrabData()
                 break
             }
@@ -83,11 +83,11 @@ class Station {
             case .success(let weather):
                 
                 self.forecastWeather = weather
-                print(weather)
+                print("Sucess grabing forecast weather")
                 
             case .error(_):
                 
-                debug("Failed to grab weather data!")
+                debug("Failed to grab forecast weather data!")
                 self.failedToGrabData()
                 break
             }
