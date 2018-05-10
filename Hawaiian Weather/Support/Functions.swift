@@ -60,6 +60,8 @@ func debug(_ output: String) {
 func locationHasBeenUpdated() {
     
     //stationTest.updateCurrentStationCurrent()
+    
+    
     print("location updated")
 }
 

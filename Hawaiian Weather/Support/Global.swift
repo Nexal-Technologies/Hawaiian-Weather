@@ -44,4 +44,3 @@ struct Location {
 
 //initialize with functions or class
 var global = Global()
-var weatherManager = WeatherManager()

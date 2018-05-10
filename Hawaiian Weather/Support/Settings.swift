@@ -35,7 +35,6 @@ struct Settings {
         //defaults.set(speakPigeon, forKey: "speakPigeon")
         //defaults.set(giveNotifications, forKey: "giveNotifications")
     }
-    
 }
 
 struct UserSettings {

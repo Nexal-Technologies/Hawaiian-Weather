@@ -10,7 +10,6 @@ target 'Hawaiian Weather' do
   #pod 'OpenWeatherMapKit' #not in use anymore
   pod 'OpenWeatherKit'
   pod 'TextFieldEffects'
-  pod "SkeletonView"
   pod 'SCLAlertView', '~> 0.8'
 
   target 'Hawaiian WeatherTests' do

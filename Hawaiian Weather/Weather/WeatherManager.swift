@@ -69,15 +69,22 @@ class WeatherManager {
     }
     
     func updateStationCurrentWeather() {
+        print("updateStationCurrentWeather()")
         for i in 1...(stations.count - 1) { //minus one because count automaticaly returns the ammount, not ht eindex number...
             stations[i].updateCurrent()
+            if stations.count == 1 { // if there is only one in the index, or else, will continue to update!
+                break
+            }
         } //update all stations
     }
     
-    func updateStationForecastWeather() {
+    func updateStationForecastWeather(station: Int) {
+        print("updateStationForecastWeather()")
         for i in 1...(stations.count - 1) { //minus one because count automaticaly returns the ammount, not ht eindex number...
-            print("updateStationForecastWeather()")
             stations[i].updateForecast()
+            if stations.count == 1 { // if there is only one in the index, or else, will continue to update!
+                break
+            }
         } //update all stations
     }
     
@@ -99,12 +106,9 @@ class WeatherManager {
     @objc func updateCurrentStationCurrent() {
             stations[0] = Station(location: global.userLocation, true) //gives new location
             stations[0].updateCurrent() //updates weather
-            print("updateCurrentStationCurrent()")
+        print("updateCurrentStationCurrent()")
             updateVC()
-            //currentStation = stations[0]
-        
     }
-    
     @objc func updateCurrentStationForecast() {
             stations[0] = Station(location: global.userLocation, true)
             stations[0].updateCurrent()
@@ -114,14 +118,8 @@ class WeatherManager {
     }
     
     func updateVC() {
-        startLoadingScreen("Updating Weather")
-        print("4 sec start")
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 4.0, execute: {
-//            ViewController().updateUI()
-//        })
-        DispatchQueue.main.asyncAfter(deadline: .now() + 4) { // change 2 to desired number of seconds
-            print("4 sec end")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0, execute: {
             ViewController().updateUI()
-        }
+        })
     }
 }
