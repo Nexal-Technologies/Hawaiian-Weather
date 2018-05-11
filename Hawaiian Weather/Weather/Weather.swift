@@ -34,9 +34,6 @@ class Station {
         self.key = global.workingKey
         
         self.weatherApi = WeatherApi(key: self.key)
-        
-
-        
     }
     
     func updateCurrent() {

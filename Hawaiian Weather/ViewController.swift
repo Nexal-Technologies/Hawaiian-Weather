@@ -20,8 +20,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
     
-    var stationTest = WeatherManager()
-    var weatherManager = WeatherManager()
+    var stationTest = WeatherManager(vc: nil)
+    var weatherManager = WeatherManager(vc: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
         }
         //weather grab test
-
+        stationTest = WeatherManager(vc: self)
+        weatherManager = WeatherManager(vc: self)
     }
     
 

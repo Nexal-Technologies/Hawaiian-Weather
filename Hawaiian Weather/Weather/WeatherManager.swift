@@ -20,6 +20,8 @@ struct StationID {
 
 class WeatherManager {
     
+    var VC: ViewController?
+    
     let currentStationCurrentWeatherUpdateInterval: Double = 300.0 // five minutes
     let currentStationForecastWeatherUpdateInterval: Double = 600.0 // ten minutes
     
@@ -38,7 +40,9 @@ class WeatherManager {
     var stationsCurrentWeatherUpdateTimer: Timer!
     var stationsForecastWeatherUpdateTimer: Timer!
     
-    init() {
+    init(vc: ViewController? = nil) {
+        
+        self.VC = vc
         
         if defaults.array(forKey: "stations") != nil {
             stations = defaults.array(forKey: "stations") as! [Station] //pull saved data from defaults
@@ -106,7 +110,7 @@ class WeatherManager {
     @objc func updateCurrentStationCurrent() {
             stations[0] = Station(location: global.userLocation, true) //gives new location
             stations[0].updateCurrent() //updates weather
-        print("updateCurrentStationCurrent()")
+            print("updateCurrentStationCurrent()")
             updateVC()
     }
     @objc func updateCurrentStationForecast() {
@@ -114,12 +118,19 @@ class WeatherManager {
             stations[0].updateCurrent()
             print("updateCurrentStationForecast()")
             updateVC()
-            //currentStation = stations[0]
     }
     
     func updateVC() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 10.0, execute: {
-            ViewController().updateUI()
+            self.VC?.updateUI()
         })
+    }
+    
+    deinit {
+        //invalidating timers
+        currentCurrentWeatherUpdateTimer.invalidate()
+        currentForecastWeatherUpdateTimer.invalidate()
+        stationsCurrentWeatherUpdateTimer.invalidate()
+        stationsForecastWeatherUpdateTimer.invalidate()
     }
 }
